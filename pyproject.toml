@@ -1,0 +1,45 @@
+[project]
+name = "overturemaps-downloader"
+version = "0.1.0"
+description = "Python tools for extracting and downloading Overture Maps data."
+authors = [
+    {name = "David Henslovitz", email = "dhense177@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["overture", "maps", "geospatial", "gis", "duckdb", "geoparquet"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+dependencies = [
+    "duckdb>=1.5.2",
+    "geopandas",
+    "pandas",
+    "pyarrow>=24.0.0",
+    "shapely>=2.1.2",
+    "folium>=0.20.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/dhense177/overturemaps-downloader"
+Repository = "https://github.com/dhense177/overturemaps-downloader"
+
+[project.scripts]
+overturemaps-download = "overturemaps_downloader.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["overturemaps_downloader"]
