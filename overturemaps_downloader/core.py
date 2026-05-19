@@ -182,4 +182,3 @@ def generate_map(
 
     map_output_path.parent.mkdir(parents=True, exist_ok=True)
     m.save(str(map_output_path))
-    print(f"Map saved to {map_output_path}")

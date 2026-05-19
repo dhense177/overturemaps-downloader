@@ -77,6 +77,8 @@ def download(
     release = release or get_latest_release()
     overture_type = OVERTURE_TYPE[feature_type]
 
+    click.echo("\n\n")
+    click.echo(f"Establishing Database Connection...\n")
     con = establish_duckdb_connection()
     create_area_boundary_table(
         con,
@@ -89,7 +91,7 @@ def download(
 
     with tempfile.TemporaryDirectory() as tmpdir:
         download_path = Path(tmpdir) / f"{feature_type}.{DOWNLOAD_EXT[format]}"
-        click.echo(f"Downloading temporary data to {download_path}...")
+        click.echo(f"Downloading temporary data...\n")
         subprocess.run(
             [
                 "overturemaps", "download",
@@ -100,12 +102,15 @@ def download(
             ],
             check=True,
         )
+        click.echo(f"Executing query and writing results to '{output}'\n")
         q = build_query(str(download_path), feature_type)
         _write_output(con, q, output, format)
 
     if map_output is not None:
+        click.echo(f"Generating map and saving to '{map_output}'\n")
         generate_map(output, map_output, con)
 
+    click.echo(f"Finished Processing!")
     click.echo(f"Total time taken: {time() - start:.1f} seconds")
 
 
