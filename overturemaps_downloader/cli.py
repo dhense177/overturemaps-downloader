@@ -4,6 +4,7 @@ from pathlib import Path
 from time import time
 
 import click
+import pycountry
 
 from overturemaps_downloader.core import (
     DOWNLOAD_EXT,
@@ -18,13 +19,20 @@ from overturemaps_downloader.releases import get_available_releases, get_latest_
 from overturemaps_downloader.writers import _write_output
 
 
+def _validate_country_code(ctx: click.Context, param: click.Parameter, value: str) -> str:
+    if value and not pycountry.countries.get(alpha_2=value.upper()):
+        raise click.BadParameter(f"'{value}' is not a valid ISO A2 country code")
+    return value.upper()
+
+
+
 @click.group()
 def cli() -> None:
     """Download and filter Overture Maps data to a geographic boundary."""
 
 
 @cli.command()
-@click.option("-c", "--country-code", required=True, help="ISO A2 country code (e.g. US, DE)")
+@click.option("-c", "--country-code", required=True, callback=_validate_country_code, help="ISO A2 country code (e.g. US, DE)")
 @click.option("-r", "--region-code", default=None, help="ISO region code (e.g. CA, NY)")
 @click.option(
     "-t", "--type", "feature_type",

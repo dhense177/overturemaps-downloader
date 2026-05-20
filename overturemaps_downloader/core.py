@@ -66,6 +66,9 @@ def create_area_boundary_table(
         FROM '{s3_path}'
         {end_filter}
     """).fetchone()
+    if row is None:
+        area = f"{country_code}-{region_code}" if region_code else country_code
+        raise ValueError(f"No Overture boundary found for '{area}' in release {release!r}")
     geom_wkb, bbox_str = row
 
     geom = wkb.loads(bytes(geom_wkb))
