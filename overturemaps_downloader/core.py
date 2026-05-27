@@ -14,6 +14,14 @@ except ImportError:
 RESOLUTION = 6
 OVERTURE_TYPE = {"places": "place", "buildings": "building"}
 DOWNLOAD_EXT = {"geoparquet": "parquet", "geojson": "geojson", "geojsonseq": "geojsonseq"}
+OVERTURE_S3_THEME = {
+    "places": "theme=places/type=place",
+    "buildings": "theme=buildings/type=building",
+}
+
+
+def get_s3_path(feature_type: str, release: str) -> str:
+    return f"s3://overturemaps-us-west-2/release/{release}/{OVERTURE_S3_THEME[feature_type]}/*.parquet"
 
 
 def get_largest_polygon(geometry: BLOB) -> BLOB:
@@ -91,6 +99,10 @@ def create_area_boundary_table(
         SELECT
             ST_GeomFromWKB($1) AS geometry,
             $2 AS bbox,
+            CAST(split_part($2, ',', 1) AS DOUBLE) AS xmin,
+            CAST(split_part($2, ',', 2) AS DOUBLE) AS ymin,
+            CAST(split_part($2, ',', 3) AS DOUBLE) AS xmax,
+            CAST(split_part($2, ',', 4) AS DOUBLE) AS ymax,
             $3 AS h3_cells_within,
             $4 AS h3_cells_overlap
     """, [geom_wkb, bbox_str, list(cells_within), list(cells_overlap)])
@@ -100,17 +112,17 @@ def get_bbox(con: duckdb.DuckDBPyConnection) -> str:
     return con.execute("SELECT bbox FROM area_boundary").fetchone()[0]
 
 
-def build_query(download_path: str, feature_type: str) -> str:
+def build_query(source_path: str, feature_type: str) -> str:
     if feature_type == "places":
         h3_point = f"h3_latlng_to_cell_string(ST_Y(p.geometry), ST_X(p.geometry), {RESOLUTION})"
         within_expr = "ST_Within(p.geometry, a.geometry)"
     else:
         h3_point = (
             f"h3_latlng_to_cell_string("
-            f"ST_Y(ST_Centroid(ST_GeomFromWKB(p.geometry))), "
-            f"ST_X(ST_Centroid(ST_GeomFromWKB(p.geometry))), {RESOLUTION})"
+            f"ST_Y(ST_Centroid(p.geometry)), "
+            f"ST_X(ST_Centroid(p.geometry)), {RESOLUTION})"
         )
-        within_expr = "ST_Within(ST_GeomFromWKB(p.geometry), a.geometry)"
+        within_expr = "ST_Within(ST_Centroid(p.geometry), a.geometry)"
 
     return f"""
 WITH target_cells_within AS (
@@ -120,7 +132,11 @@ target_cells_overlap AS (
     SELECT unnest(h3_cells_overlap) AS h3_idx FROM area_boundary
 ),
 features AS (
-    SELECT * FROM '{download_path}'
+    SELECT * FROM '{source_path}'
+    WHERE bbox.xmin <= (SELECT xmax FROM area_boundary)
+      AND bbox.xmax >= (SELECT xmin FROM area_boundary)
+      AND bbox.ymin <= (SELECT ymax FROM area_boundary)
+      AND bbox.ymax >= (SELECT ymin FROM area_boundary)
 ),
 points_within AS (
     SELECT p.*
