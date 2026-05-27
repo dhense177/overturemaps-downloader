@@ -87,6 +87,7 @@ def download(
 
     click.echo("\n\n")
     click.echo(f"Establishing Database Connection...\n")
+    t = time()
     con = establish_duckdb_connection()
     create_area_boundary_table(
         con,
@@ -96,10 +97,12 @@ def download(
         largest_only=largest_only,
     )
     bbox = get_bbox(con)
+    click.echo(f"  Done in {time() - t:.1f}s\n")
 
     with tempfile.TemporaryDirectory() as tmpdir:
         download_path = Path(tmpdir) / f"{feature_type}.{DOWNLOAD_EXT[format]}"
         click.echo(f"Downloading temporary data...\n")
+        t = time()
         subprocess.run(
             [
                 "overturemaps", "download",
@@ -110,13 +113,19 @@ def download(
             ],
             check=True,
         )
+        click.echo(f"  Done in {time() - t:.1f}s\n")
+
         click.echo(f"Executing query and writing results to '{output}'\n")
+        t = time()
         q = build_query(str(download_path), feature_type)
         _write_output(con, q, output, format)
+        click.echo(f"  Done in {time() - t:.1f}s\n")
 
     if map_output is not None:
         click.echo(f"Generating map and saving to '{map_output}'\n")
+        t = time()
         generate_map(output, map_output, con)
+        click.echo(f"  Done in {time() - t:.1f}s\n")
 
     click.echo(f"Finished Processing!")
     click.echo(f"Total time taken: {time() - start:.1f} seconds")
