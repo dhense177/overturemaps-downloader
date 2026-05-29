@@ -37,6 +37,7 @@ def establish_duckdb_connection() -> duckdb.DuckDBPyConnection:
     con.execute("INSTALL spatial; LOAD spatial;")
     con.execute("INSTALL h3 FROM community; LOAD h3;")
     con.execute("SET s3_region='us-west-2';")
+    con.execute("SET temp_directory='/tmp/duckdb_tmp';")
     return con
 
 
@@ -94,6 +95,8 @@ def create_area_boundary_table(
             f"SELECT h3_polygon_wkt_to_cells_experimental_string('{poly_wkt}', {RESOLUTION}, 'overlap')"
         ).fetchone()[0])
 
+    cells_boundary = cells_overlap - cells_within
+
     con.execute("""
         CREATE OR REPLACE TABLE area_boundary AS
         SELECT
@@ -104,58 +107,69 @@ def create_area_boundary_table(
             CAST(split_part($2, ',', 3) AS DOUBLE) AS xmax,
             CAST(split_part($2, ',', 4) AS DOUBLE) AS ymax,
             $3 AS h3_cells_within,
-            $4 AS h3_cells_overlap
-    """, [geom_wkb, bbox_str, list(cells_within), list(cells_overlap)])
+            $4 AS h3_cells_boundary
+    """, [geom_wkb, bbox_str, list(cells_within), list(cells_boundary)])
 
 
 def get_bbox(con: duckdb.DuckDBPyConnection) -> str:
     return con.execute("SELECT bbox FROM area_boundary").fetchone()[0]
 
 
-def build_query(source_path: str, feature_type: str) -> str:
-    if feature_type == "places":
-        h3_point = f"h3_latlng_to_cell_string(ST_Y(p.geometry), ST_X(p.geometry), {RESOLUTION})"
-        within_expr = "ST_Within(p.geometry, a.geometry)"
-    else:
-        h3_point = (
-            f"h3_latlng_to_cell_string("
-            f"ST_Y(ST_Centroid(p.geometry)), "
-            f"ST_X(ST_Centroid(p.geometry)), {RESOLUTION})"
-        )
-        within_expr = "ST_Within(ST_Centroid(p.geometry), a.geometry)"
-
-    return f"""
-WITH target_cells_within AS (
-    SELECT unnest(h3_cells_within) AS h3_idx FROM area_boundary
-),
-target_cells_overlap AS (
-    SELECT unnest(h3_cells_overlap) AS h3_idx FROM area_boundary
-),
-features AS (
-    SELECT * FROM '{source_path}'
+def _bbox_filter() -> str:
+    return """
     WHERE bbox.xmin <= (SELECT xmax FROM area_boundary)
       AND bbox.xmax >= (SELECT xmin FROM area_boundary)
       AND bbox.ymin <= (SELECT ymax FROM area_boundary)
-      AND bbox.ymax >= (SELECT ymin FROM area_boundary)
+      AND bbox.ymax >= (SELECT ymin FROM area_boundary)"""
+
+
+def _h3_point(feature_type: str) -> str:
+    if feature_type == "places":
+        return f"h3_latlng_to_cell_string(ST_Y(p.geometry), ST_X(p.geometry), {RESOLUTION})"
+    return (
+        f"h3_latlng_to_cell_string("
+        f"ST_Y(ST_Centroid(p.geometry)), "
+        f"ST_X(ST_Centroid(p.geometry)), {RESOLUTION})"
+    )
+
+
+def build_within_query(source_path: str, feature_type: str) -> str:
+    h3_point = _h3_point(feature_type)
+    return f"""
+WITH target_cells AS (
+    SELECT unnest(h3_cells_within) AS h3_idx FROM area_boundary
 ),
-points_within AS (
-    SELECT p.*
-    FROM features p
-    JOIN target_cells_within t ON {h3_point} = t.h3_idx
-),
-points_overlap AS (
-    SELECT p.*
-    FROM features p
-    JOIN target_cells_overlap t ON {h3_point} = t.h3_idx
-),
-boundary_points AS (
-    SELECT p.*
-    FROM points_overlap p, area_boundary a
-    WHERE {within_expr}
+features AS (
+    SELECT * FROM '{source_path}'{_bbox_filter()}
 )
-SELECT * FROM points_within
-UNION
-SELECT * FROM boundary_points
+SELECT p.*
+FROM features p
+JOIN target_cells t ON {h3_point} = t.h3_idx
+"""
+
+
+def build_boundary_query(source_path: str, feature_type: str) -> str:
+    h3_point = _h3_point(feature_type)
+    within_expr = (
+        "ST_Within(p.geometry, a.geometry)"
+        if feature_type == "places"
+        else "ST_Within(ST_Centroid(p.geometry), a.geometry)"
+    )
+    return f"""
+WITH target_cells AS (
+    SELECT unnest(h3_cells_boundary) AS h3_idx FROM area_boundary
+),
+features AS (
+    SELECT * FROM '{source_path}'{_bbox_filter()}
+),
+candidates AS (
+    SELECT p.*
+    FROM features p
+    JOIN target_cells t ON {h3_point} = t.h3_idx
+)
+SELECT p.*
+FROM candidates p, area_boundary a
+WHERE {within_expr}
 """
 
 
