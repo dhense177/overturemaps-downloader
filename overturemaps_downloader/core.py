@@ -12,14 +12,23 @@ except ImportError:
     _folium = None
 
 RESOLUTION = 6
-OVERTURE_TYPE = {"places": "place", "buildings": "building", "addresses": "address"}
+OVERTURE_TYPE = {
+    "places": "place",
+    "buildings": "building",
+    "addresses": "address",
+    "segments": "segment",
+    "connectors": "connector",
+}
 DOWNLOAD_EXT = {"geoparquet": "parquet", "geojson": "geojson", "geojsonseq": "geojsonseq"}
 OVERTURE_S3_THEME = {
     "places": "theme=places/type=place",
     "buildings": "theme=buildings/type=building",
     "addresses": "theme=addresses/type=address",
+    "segments": "theme=transportation/type=segment",
+    "connectors": "theme=transportation/type=connector",
 }
-POINT_GEOMETRY_TYPES = {"places", "addresses"}
+POINT_GEOMETRY_TYPES = {"places", "addresses", "connectors"}
+LINESTRING_GEOMETRY_TYPES = {"segments"}
 
 
 def get_s3_path(feature_type: str, release: str) -> str:
@@ -152,11 +161,12 @@ JOIN target_cells t ON {h3_point} = t.h3_idx
 
 def build_boundary_query(source_path: str, feature_type: str) -> str:
     h3_point = _h3_point(feature_type)
-    within_expr = (
-        "ST_Within(p.geometry, a.geometry)"
-        if feature_type in POINT_GEOMETRY_TYPES
-        else "ST_Within(ST_Centroid(p.geometry), a.geometry)"
-    )
+    if feature_type in POINT_GEOMETRY_TYPES:
+        within_expr = "ST_Within(p.geometry, a.geometry)"
+    elif feature_type in LINESTRING_GEOMETRY_TYPES:
+        within_expr = "ST_Intersects(p.geometry, a.geometry)"
+    else:
+        within_expr = "ST_Within(ST_Centroid(p.geometry), a.geometry)"
     return f"""
 WITH target_cells AS (
     SELECT unnest(h3_cells_boundary) AS h3_idx FROM area_boundary
