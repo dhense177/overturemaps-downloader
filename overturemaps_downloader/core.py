@@ -12,12 +12,14 @@ except ImportError:
     _folium = None
 
 RESOLUTION = 6
-OVERTURE_TYPE = {"places": "place", "buildings": "building"}
+OVERTURE_TYPE = {"places": "place", "buildings": "building", "addresses": "address"}
 DOWNLOAD_EXT = {"geoparquet": "parquet", "geojson": "geojson", "geojsonseq": "geojsonseq"}
 OVERTURE_S3_THEME = {
     "places": "theme=places/type=place",
     "buildings": "theme=buildings/type=building",
+    "addresses": "theme=addresses/type=address",
 }
+POINT_GEOMETRY_TYPES = {"places", "addresses"}
 
 
 def get_s3_path(feature_type: str, release: str) -> str:
@@ -124,7 +126,7 @@ def _bbox_filter() -> str:
 
 
 def _h3_point(feature_type: str) -> str:
-    if feature_type == "places":
+    if feature_type in POINT_GEOMETRY_TYPES:
         return f"h3_latlng_to_cell_string(ST_Y(p.geometry), ST_X(p.geometry), {RESOLUTION})"
     return (
         f"h3_latlng_to_cell_string("
@@ -152,7 +154,7 @@ def build_boundary_query(source_path: str, feature_type: str) -> str:
     h3_point = _h3_point(feature_type)
     within_expr = (
         "ST_Within(p.geometry, a.geometry)"
-        if feature_type == "places"
+        if feature_type in POINT_GEOMETRY_TYPES
         else "ST_Within(ST_Centroid(p.geometry), a.geometry)"
     )
     return f"""

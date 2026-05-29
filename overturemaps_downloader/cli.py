@@ -38,7 +38,7 @@ def cli() -> None:
 @click.option(
     "-t", "--type", "feature_type",
     required=True,
-    type=click.Choice(["places", "buildings"], case_sensitive=False),
+    type=click.Choice(["places", "buildings", "addresses"], case_sensitive=False),
     help="Overture feature type to download",
 )
 @click.option(
