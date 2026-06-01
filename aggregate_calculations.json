@@ -1,0 +1,62 @@
+{
+  "release": "2026-05-20.0",
+  "avg_record_bytes": {
+    "addresses": {
+      "geoparquet": 486,
+      "geojson": 710,
+      "geojsonseq": 694
+    },
+    "places": {
+      "geoparquet": 1400,
+      "geojson": 1740,
+      "geojsonseq": 1726
+    },
+    "buildings": {
+      "geoparquet": 834,
+      "geojson": 1198,
+      "geojsonseq": 1182
+    },
+    "segments": {
+      "geoparquet": 1942,
+      "geojson": 1122,
+      "geojsonseq": 1107
+    },
+    "connectors": {
+      "geoparquet": 423,
+      "geojson": 565,
+      "geojsonseq": 549
+    }
+  },
+  "counts": [
+    {
+      "country": "AD",
+      "data_type": "addresses",
+      "estimated_rows": 727,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AD",
+      "data_type": "places",
+      "estimated_rows": 4682,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AD",
+      "data_type": "buildings",
+      "estimated_rows": 13404,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AD",
+      "data_type": "segments",
+      "estimated_rows": 8239,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AD",
+      "data_type": "connectors",
+      "estimated_rows": 11488,
+      "release": "2026-05-20.0"
+    }
+  ]
+}
