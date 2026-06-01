@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.DS_Store
+
+# Virtual environments
+.venv
+
+# Anything that starts with a .
+.*
+
+# tasks
+*tasks*
+
+# untracked file types
+*.parquet
+*.html
+*.geojson
+*.geojsonseq
+*.png
+
+# do not ignore gitignore
+!.gitignore
