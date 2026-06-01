@@ -16,20 +16,36 @@ RESOLUTION = 6
 OVERTURE_TYPE = {
     "places": "place",
     "buildings": "building",
+    "building_part": "building_part",
     "addresses": "address",
     "segments": "segment",
     "connectors": "connector",
+    "bathymetry": "bathymetry",
+    "infrastructure": "infrastructure",
+    "land": "land",
+    "land_cover": "land_cover",
+    "land_use": "land_use",
+    "water": "water",
 }
 DOWNLOAD_EXT = {"geoparquet": "parquet", "geojson": "geojson", "geojsonseq": "geojsonseq"}
 OVERTURE_S3_THEME = {
     "places": "theme=places/type=place",
     "buildings": "theme=buildings/type=building",
+    "building_part": "theme=buildings/type=building_part",
     "addresses": "theme=addresses/type=address",
     "segments": "theme=transportation/type=segment",
     "connectors": "theme=transportation/type=connector",
+    "bathymetry": "theme=base/type=bathymetry",
+    "infrastructure": "theme=base/type=infrastructure",
+    "land": "theme=base/type=land",
+    "land_cover": "theme=base/type=land_cover",
+    "land_use": "theme=base/type=land_use",
+    "water": "theme=base/type=water",
 }
 POINT_GEOMETRY_TYPES = {"places", "addresses", "connectors"}
 LINESTRING_GEOMETRY_TYPES = {"segments"}
+# These types contain a mix of point, linestring, and polygon features per row
+MIXED_GEOMETRY_TYPES = {"infrastructure", "land", "land_use", "water"}
 
 
 def get_s3_path(feature_type: str, release: str) -> str:
@@ -160,14 +176,17 @@ JOIN target_cells t ON {h3_point} = t.h3_idx
 """
 
 
+def _boundary_expr(feature_type: str) -> str:
+    if feature_type in POINT_GEOMETRY_TYPES:
+        return "ST_Within(p.geometry, a.geometry)"
+    if feature_type in LINESTRING_GEOMETRY_TYPES or feature_type in MIXED_GEOMETRY_TYPES:
+        return "ST_Intersects(p.geometry, a.geometry)"
+    return "ST_Within(ST_Centroid(p.geometry), a.geometry)"
+
+
 def build_boundary_query(source_path: str, feature_type: str) -> str:
     h3_point = _h3_point(feature_type)
-    if feature_type in POINT_GEOMETRY_TYPES:
-        within_expr = "ST_Within(p.geometry, a.geometry)"
-    elif feature_type in LINESTRING_GEOMETRY_TYPES:
-        within_expr = "ST_Intersects(p.geometry, a.geometry)"
-    else:
-        within_expr = "ST_Within(ST_Centroid(p.geometry), a.geometry)"
+    within_expr = _boundary_expr(feature_type)
     return f"""
 WITH target_cells AS (
     SELECT unnest(h3_cells_boundary) AS h3_idx FROM area_boundary
@@ -188,12 +207,7 @@ WHERE {within_expr}
 
 def build_combined_query(source_path: str, feature_type: str) -> str:
     h3_point = _h3_point(feature_type)
-    if feature_type in POINT_GEOMETRY_TYPES:
-        within_expr = "ST_Within(p.geometry, a.geometry)"
-    elif feature_type in LINESTRING_GEOMETRY_TYPES:
-        within_expr = "ST_Intersects(p.geometry, a.geometry)"
-    else:
-        within_expr = "ST_Within(ST_Centroid(p.geometry), a.geometry)"
+    within_expr = _boundary_expr(feature_type)
     return f"""
 WITH target_within AS (
     SELECT unnest(h3_cells_within) AS h3_idx FROM area_boundary
@@ -263,20 +277,23 @@ def generate_map(
                        x_range=(minx, maxx), y_range=(miny, maxy))
 
     if len(gdf) > 0:
-        geom_type = gdf.geometry.iloc[0].geom_type
-        if geom_type in ("Polygon", "MultiPolygon"):
-            plot_df = pd.DataFrame({
-                "x": gdf.geometry.centroid.x.values,
-                "y": gdf.geometry.centroid.y.values,
-            })
-            agg = canvas.points(plot_df, "x", "y")
-        elif geom_type in ("LineString", "MultiLineString"):
+        geom_types = set(gdf.geometry.geom_type.unique())
+        pure_points = geom_types <= {"Point", "MultiPoint"}
+        pure_lines = geom_types <= {"LineString", "MultiLineString", "LinearRing"}
+        if pure_lines:
             line_xs, line_ys = _geoms_to_xy(gdf.geometry)
             agg = canvas.line(pd.DataFrame({"x": line_xs, "y": line_ys}), "x", "y")
-        else:
+        elif pure_points:
             plot_df = pd.DataFrame({
                 "x": gdf.geometry.x.values,
                 "y": gdf.geometry.y.values,
+            })
+            agg = canvas.points(plot_df, "x", "y")
+        else:
+            # Polygons, mixed types, or anything else — centroid works for all
+            plot_df = pd.DataFrame({
+                "x": gdf.geometry.centroid.x.values,
+                "y": gdf.geometry.centroid.y.values,
             })
             agg = canvas.points(plot_df, "x", "y")
 
