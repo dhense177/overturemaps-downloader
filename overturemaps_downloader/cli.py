@@ -9,8 +9,7 @@ import pycountry
 from overturemaps_downloader.core import (
     DOWNLOAD_EXT,
     OVERTURE_TYPE,
-    build_boundary_query,
-    build_within_query,
+    build_combined_query,
     create_area_boundary_table,
     establish_duckdb_connection,
     generate_map,
@@ -118,9 +117,8 @@ def download(
 
         click.echo(f"Executing query and writing results to '{output}'\n")
         t = time()
-        within_q = build_within_query(str(download_path), feature_type)
-        boundary_q = build_boundary_query(str(download_path), feature_type)
-        _write_output(con, [within_q, boundary_q], output, format, tmpdir)
+        combined_q = build_combined_query(str(download_path), feature_type)
+        _write_output(con, combined_q, output, format)
         click.echo(f"  Done in {time() - t:.1f}s\n")
 
     if map_output is not None:

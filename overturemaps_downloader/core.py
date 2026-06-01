@@ -185,6 +185,45 @@ WHERE {within_expr}
 """
 
 
+def build_combined_query(source_path: str, feature_type: str) -> str:
+    h3_point = _h3_point(feature_type)
+    if feature_type in POINT_GEOMETRY_TYPES:
+        within_expr = "ST_Within(p.geometry, a.geometry)"
+    elif feature_type in LINESTRING_GEOMETRY_TYPES:
+        within_expr = "ST_Intersects(p.geometry, a.geometry)"
+    else:
+        within_expr = "ST_Within(ST_Centroid(p.geometry), a.geometry)"
+    return f"""
+WITH target_within AS (
+    SELECT unnest(h3_cells_within) AS h3_idx FROM area_boundary
+),
+target_boundary AS (
+    SELECT unnest(h3_cells_boundary) AS h3_idx FROM area_boundary
+),
+features AS (
+    SELECT * FROM '{source_path}'{_bbox_filter()}
+),
+within_results AS (
+    SELECT p.*
+    FROM features p
+    JOIN target_within t ON {h3_point} = t.h3_idx
+),
+boundary_candidates AS (
+    SELECT p.*
+    FROM features p
+    JOIN target_boundary t ON {h3_point} = t.h3_idx
+),
+boundary_results AS (
+    SELECT p.*
+    FROM boundary_candidates p, area_boundary a
+    WHERE {within_expr}
+)
+SELECT * FROM within_results
+UNION ALL
+SELECT * FROM boundary_results
+"""
+
+
 def generate_map(
     output_path: Path,
     map_output_path: Path,
