@@ -1,15 +1,16 @@
 from pathlib import Path
 
+import contextily as ctx
+import datashader as ds
+import datashader.transfer_functions as tf
+import colorcet
 import duckdb
 import geopandas as gpd
+import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 from duckdb.sqltypes import BLOB
 from shapely import wkb, from_wkb
-
-try:
-    import folium as _folium
-except ImportError:
-    _folium = None
 
 RESOLUTION = 6
 OVERTURE_TYPE = {
@@ -224,17 +225,25 @@ SELECT * FROM boundary_results
 """
 
 
+def _geoms_to_xy(geometries) -> tuple[np.ndarray, np.ndarray]:
+    """Convert geometries to NaN-separated x/y arrays for datashader line rendering."""
+    xs, ys = [], []
+    for geom in geometries:
+        parts = list(geom.geoms) if hasattr(geom, "geoms") else [geom]
+        for part in parts:
+            coords = np.array(part.coords)
+            xs.append(coords[:, 0])
+            ys.append(coords[:, 1])
+            xs.append([np.nan])
+            ys.append([np.nan])
+    return np.concatenate(xs), np.concatenate(ys)
+
+
 def generate_map(
     output_path: Path,
     map_output_path: Path,
     con: duckdb.DuckDBPyConnection,
 ) -> None:
-    if _folium is None:
-        raise ImportError(
-            "Map generation requires the 'map' extra. "
-            "Install it with: pip install overturemaps-downloader-py[map]"
-        )
-
     if output_path.suffix == ".parquet":
         df = pd.read_parquet(output_path)
         gdf = gpd.GeoDataFrame(df, geometry=from_wkb(df["geometry"]), crs="EPSG:4326")
@@ -245,24 +254,54 @@ def generate_map(
 
     boundary_wkb = con.execute("SELECT ST_AsWKB(geometry) FROM area_boundary").fetchone()[0]
     boundary_geom = wkb.loads(bytes(boundary_wkb))
-    boundary_gdf = gpd.GeoDataFrame(geometry=[boundary_geom], crs="EPSG:4326")
 
-    centroid = boundary_geom.centroid
-    m = _folium.Map(location=[centroid.y, centroid.x], zoom_start=8)
+    minx, miny, maxx, maxy = boundary_geom.bounds
+    pad_x = (maxx - minx) * 0.2
+    pad_y = (maxy - miny) * 0.2
 
-    _folium.GeoJson(
-        boundary_gdf.__geo_interface__,
-        name="Boundary",
-        style_function=lambda x: {"fillColor": "blue", "fillOpacity": 0.05, "color": "blue", "weight": 2},
-    ).add_to(m)
+    canvas = ds.Canvas(plot_width=1200, plot_height=900,
+                       x_range=(minx, maxx), y_range=(miny, maxy))
 
-    _folium.GeoJson(
-        gdf[["geometry"]].__geo_interface__,
-        name="Features",
-        marker=_folium.CircleMarker(radius=3, fill=True, fill_color="red", fill_opacity=0.6, color="red", weight=0),
-    ).add_to(m)
+    if len(gdf) > 0:
+        geom_type = gdf.geometry.iloc[0].geom_type
+        if geom_type in ("Polygon", "MultiPolygon"):
+            plot_df = pd.DataFrame({
+                "x": gdf.geometry.centroid.x.values,
+                "y": gdf.geometry.centroid.y.values,
+            })
+            agg = canvas.points(plot_df, "x", "y")
+        elif geom_type in ("LineString", "MultiLineString"):
+            line_xs, line_ys = _geoms_to_xy(gdf.geometry)
+            agg = canvas.line(pd.DataFrame({"x": line_xs, "y": line_ys}), "x", "y")
+        else:
+            plot_df = pd.DataFrame({
+                "x": gdf.geometry.x.values,
+                "y": gdf.geometry.y.values,
+            })
+            agg = canvas.points(plot_df, "x", "y")
 
-    _folium.LayerControl().add_to(m)
+        # No background — transparent pixels let the basemap show through
+        feature_img = tf.shade(agg, cmap=colorcet.fire, how="log")
+        boundary_xs, boundary_ys = _geoms_to_xy([boundary_geom.boundary])
+        boundary_agg = canvas.line(pd.DataFrame({"x": boundary_xs, "y": boundary_ys}), "x", "y")
+        boundary_img = tf.shade(boundary_agg, cmap=["white", "white"])
+        result = tf.stack(feature_img, boundary_img)
+    else:
+        boundary_xs, boundary_ys = _geoms_to_xy([boundary_geom.boundary])
+        boundary_agg = canvas.line(pd.DataFrame({"x": boundary_xs, "y": boundary_ys}), "x", "y")
+        result = tf.shade(boundary_agg, cmap=["white", "white"])
+
+    img_array = np.array(result.to_pil().convert("RGBA"))
+
+    fig, ax = plt.subplots(figsize=(14, 10))
+    ax.set_xlim(minx - pad_x, maxx + pad_x)
+    ax.set_ylim(miny - pad_y, maxy + pad_y)
+    ax.set_aspect("equal", adjustable="box")
+
+    ctx.add_basemap(ax, crs="EPSG:4326", source=ctx.providers.CartoDB.DarkMatter)
+    ax.imshow(img_array, extent=[minx, maxx, miny, maxy], origin="upper", zorder=5)
+    ax.set_axis_off()
 
     map_output_path.parent.mkdir(parents=True, exist_ok=True)
-    m.save(str(map_output_path))
+    fig.savefig(str(map_output_path.with_suffix(".png")), dpi=150, bbox_inches="tight", pad_inches=0)
+    plt.close(fig)
