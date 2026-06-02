@@ -2,29 +2,29 @@
   "release": "2026-05-20.0",
   "avg_record_bytes": {
     "addresses": {
-      "geoparquet": 486,
-      "geojson": 710,
-      "geojsonseq": 694
+      "geoparquet": 111,
+      "geojson": 711,
+      "geojsonseq": 707
     },
     "places": {
-      "geoparquet": 1400,
-      "geojson": 1740,
-      "geojsonseq": 1726
+      "geoparquet": 240,
+      "geojson": 1571,
+      "geojsonseq": 1572
     },
     "buildings": {
-      "geoparquet": 834,
-      "geojson": 1198,
-      "geojsonseq": 1182
+      "geoparquet": 171,
+      "geojson": 1135,
+      "geojsonseq": 1134
     },
     "segments": {
-      "geoparquet": 1942,
-      "geojson": 1122,
-      "geojsonseq": 1107
+      "geoparquet": 357,
+      "geojson": 1509,
+      "geojsonseq": 1508
     },
     "connectors": {
-      "geoparquet": 423,
-      "geojson": 565,
-      "geojsonseq": 549
+      "geoparquet": 98,
+      "geojson": 548,
+      "geojsonseq": 547
     }
   },
   "counts": [
@@ -35,9 +35,2625 @@
       "release": "2026-05-20.0"
     },
     {
+      "country": "AE",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AF",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AG",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AL",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AO",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AQ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AR",
+      "data_type": "addresses",
+      "estimated_rows": 6798386,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AT",
+      "data_type": "addresses",
+      "estimated_rows": 3841093,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AU",
+      "data_type": "addresses",
+      "estimated_rows": 15649125,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AZ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BA",
+      "data_type": "addresses",
+      "estimated_rows": 558954,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BB",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BD",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BE",
+      "data_type": "addresses",
+      "estimated_rows": 10106853,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BF",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BG",
+      "data_type": "addresses",
+      "estimated_rows": 61336,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BH",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BI",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BJ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BN",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BO",
+      "data_type": "addresses",
+      "estimated_rows": 1221571,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BR",
+      "data_type": "addresses",
+      "estimated_rows": 93236993,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BS",
+      "data_type": "addresses",
+      "estimated_rows": 2514501,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BT",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BW",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BY",
+      "data_type": "addresses",
+      "estimated_rows": 988849,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BZ",
+      "data_type": "addresses",
+      "estimated_rows": 4256,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CA",
+      "data_type": "addresses",
+      "estimated_rows": 42802709,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CD",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CF",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CG",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CH",
+      "data_type": "addresses",
+      "estimated_rows": 4960546,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CI",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CL",
+      "data_type": "addresses",
+      "estimated_rows": 4199023,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CN",
+      "data_type": "addresses",
+      "estimated_rows": 14154804,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CO",
+      "data_type": "addresses",
+      "estimated_rows": 7839092,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CR",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CU",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CV",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CY",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CZ",
+      "data_type": "addresses",
+      "estimated_rows": 4793807,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DE",
+      "data_type": "addresses",
+      "estimated_rows": 27423263,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DJ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DK",
+      "data_type": "addresses",
+      "estimated_rows": 4063353,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DO",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DZ",
+      "data_type": "addresses",
+      "estimated_rows": 1334453,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EC",
+      "data_type": "addresses",
+      "estimated_rows": 221470,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EE",
+      "data_type": "addresses",
+      "estimated_rows": 2262033,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EG",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ER",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ES",
+      "data_type": "addresses",
+      "estimated_rows": 23443396,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ET",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FI",
+      "data_type": "addresses",
+      "estimated_rows": 3669165,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FJ",
+      "data_type": "addresses",
+      "estimated_rows": 22971163,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FR",
+      "data_type": "addresses",
+      "estimated_rows": 48385530,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GA",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GB",
+      "data_type": "addresses",
+      "estimated_rows": 197977,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GD",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GE",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GH",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GN",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GQ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GR",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GT",
+      "data_type": "addresses",
+      "estimated_rows": 206979,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GW",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GY",
+      "data_type": "addresses",
+      "estimated_rows": 185587,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HN",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HR",
+      "data_type": "addresses",
+      "estimated_rows": 2987559,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HT",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HU",
+      "data_type": "addresses",
+      "estimated_rows": 1869336,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ID",
+      "data_type": "addresses",
+      "estimated_rows": 142763,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IE",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IL",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IN",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IQ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IR",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IS",
+      "data_type": "addresses",
+      "estimated_rows": 138586,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IT",
+      "data_type": "addresses",
+      "estimated_rows": 30442138,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JO",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JP",
+      "data_type": "addresses",
+      "estimated_rows": 19568315,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KE",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KG",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KH",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KI",
+      "data_type": "addresses",
+      "estimated_rows": 30686908,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KN",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KP",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KR",
+      "data_type": "addresses",
+      "estimated_rows": 845583,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KW",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KZ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LA",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LB",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LC",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LI",
+      "data_type": "addresses",
+      "estimated_rows": 34648,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LK",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LR",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LS",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LT",
+      "data_type": "addresses",
+      "estimated_rows": 1265198,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LU",
+      "data_type": "addresses",
+      "estimated_rows": 288347,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LV",
+      "data_type": "addresses",
+      "estimated_rows": 1120409,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LY",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MA",
+      "data_type": "addresses",
+      "estimated_rows": 606849,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MC",
+      "data_type": "addresses",
+      "estimated_rows": 2576,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MD",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ME",
+      "data_type": "addresses",
+      "estimated_rows": 52554,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MF",
+      "data_type": "addresses",
+      "estimated_rows": 3667,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MG",
+      "data_type": "addresses",
+      "estimated_rows": 51329,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MH",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MK",
+      "data_type": "addresses",
+      "estimated_rows": 12644,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ML",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MN",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MR",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MT",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MU",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MV",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MW",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MX",
+      "data_type": "addresses",
+      "estimated_rows": 42399349,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MY",
+      "data_type": "addresses",
+      "estimated_rows": 141676,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MZ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NA",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NE",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NG",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NI",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NL",
+      "data_type": "addresses",
+      "estimated_rows": 16200154,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NO",
+      "data_type": "addresses",
+      "estimated_rows": 9297874,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NP",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NR",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NZ",
+      "data_type": "addresses",
+      "estimated_rows": 22666201,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "OM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PA",
+      "data_type": "addresses",
+      "estimated_rows": 1692,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PE",
+      "data_type": "addresses",
+      "estimated_rows": 229665,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PG",
+      "data_type": "addresses",
+      "estimated_rows": 5367,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PH",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PK",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PL",
+      "data_type": "addresses",
+      "estimated_rows": 11584237,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PT",
+      "data_type": "addresses",
+      "estimated_rows": 6590204,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PW",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PY",
+      "data_type": "addresses",
+      "estimated_rows": 1051971,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "QA",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RO",
+      "data_type": "addresses",
+      "estimated_rows": 1197657,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RS",
+      "data_type": "addresses",
+      "estimated_rows": 2730614,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RU",
+      "data_type": "addresses",
+      "estimated_rows": 172746018,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RW",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SA",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SB",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SC",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SD",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SE",
+      "data_type": "addresses",
+      "estimated_rows": 4341211,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SG",
+      "data_type": "addresses",
+      "estimated_rows": 141676,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SI",
+      "data_type": "addresses",
+      "estimated_rows": 1482311,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SK",
+      "data_type": "addresses",
+      "estimated_rows": 2369240,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SL",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SM",
+      "data_type": "addresses",
+      "estimated_rows": 2475,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SN",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SO",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SR",
+      "data_type": "addresses",
+      "estimated_rows": 11107,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SS",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ST",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SV",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SX",
+      "data_type": "addresses",
+      "estimated_rows": 797,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SY",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SZ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TD",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TG",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TH",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TJ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TL",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TN",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TO",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TR",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TT",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TV",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TW",
+      "data_type": "addresses",
+      "estimated_rows": 9630760,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TZ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UA",
+      "data_type": "addresses",
+      "estimated_rows": 817892,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UG",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "US",
+      "data_type": "addresses",
+      "estimated_rows": 346260655,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UY",
+      "data_type": "addresses",
+      "estimated_rows": 1353669,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UZ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VA",
+      "data_type": "addresses",
+      "estimated_rows": 1037,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VC",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VE",
+      "data_type": "addresses",
+      "estimated_rows": 1382637,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VN",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VU",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "WS",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XA",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XB",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XC",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XD",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XG",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XH",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XI",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XK",
+      "data_type": "addresses",
+      "estimated_rows": 127385,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XL",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XN",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XO",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XP",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XQ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XR",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XT",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XU",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XW",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XX",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XY",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XZ",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "YE",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZA",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZM",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZW",
+      "data_type": "addresses",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
       "country": "AD",
       "data_type": "places",
       "estimated_rows": 4682,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AE",
+      "data_type": "places",
+      "estimated_rows": 157094,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AF",
+      "data_type": "places",
+      "estimated_rows": 226291,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AG",
+      "data_type": "places",
+      "estimated_rows": 2213,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AL",
+      "data_type": "places",
+      "estimated_rows": 62558,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AM",
+      "data_type": "places",
+      "estimated_rows": 29766,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AO",
+      "data_type": "places",
+      "estimated_rows": 29581,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AQ",
+      "data_type": "places",
+      "estimated_rows": 2281,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AR",
+      "data_type": "places",
+      "estimated_rows": 1518870,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AT",
+      "data_type": "places",
+      "estimated_rows": 939566,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AU",
+      "data_type": "places",
+      "estimated_rows": 1430479,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AZ",
+      "data_type": "places",
+      "estimated_rows": 58428,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BA",
+      "data_type": "places",
+      "estimated_rows": 101046,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BB",
+      "data_type": "places",
+      "estimated_rows": 5780,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BD",
+      "data_type": "places",
+      "estimated_rows": 487528,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BE",
+      "data_type": "places",
+      "estimated_rows": 810458,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BF",
+      "data_type": "places",
+      "estimated_rows": 10143,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BG",
+      "data_type": "places",
+      "estimated_rows": 220830,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BH",
+      "data_type": "places",
+      "estimated_rows": 14702,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BI",
+      "data_type": "places",
+      "estimated_rows": 2897,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BJ",
+      "data_type": "places",
+      "estimated_rows": 67664,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BN",
+      "data_type": "places",
+      "estimated_rows": 10307,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BO",
+      "data_type": "places",
+      "estimated_rows": 157350,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BR",
+      "data_type": "places",
+      "estimated_rows": 6338298,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BS",
+      "data_type": "places",
+      "estimated_rows": 380094,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BT",
+      "data_type": "places",
+      "estimated_rows": 5218,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BW",
+      "data_type": "places",
+      "estimated_rows": 308630,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BY",
+      "data_type": "places",
+      "estimated_rows": 120586,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BZ",
+      "data_type": "places",
+      "estimated_rows": 9086,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CA",
+      "data_type": "places",
+      "estimated_rows": 5224579,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CD",
+      "data_type": "places",
+      "estimated_rows": 58130,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CF",
+      "data_type": "places",
+      "estimated_rows": 5561,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CG",
+      "data_type": "places",
+      "estimated_rows": 11762,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CH",
+      "data_type": "places",
+      "estimated_rows": 654960,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CI",
+      "data_type": "places",
+      "estimated_rows": 23113,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CL",
+      "data_type": "places",
+      "estimated_rows": 488001,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CM",
+      "data_type": "places",
+      "estimated_rows": 28698,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CN",
+      "data_type": "places",
+      "estimated_rows": 6052150,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CO",
+      "data_type": "places",
+      "estimated_rows": 944337,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CR",
+      "data_type": "places",
+      "estimated_rows": 116051,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CU",
+      "data_type": "places",
+      "estimated_rows": 17915,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CV",
+      "data_type": "places",
+      "estimated_rows": 3568,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CY",
+      "data_type": "places",
+      "estimated_rows": 58989,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CZ",
+      "data_type": "places",
+      "estimated_rows": 658579,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DE",
+      "data_type": "places",
+      "estimated_rows": 4343053,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DJ",
+      "data_type": "places",
+      "estimated_rows": 1139,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DK",
+      "data_type": "places",
+      "estimated_rows": 430504,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DM",
+      "data_type": "places",
+      "estimated_rows": 911,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DO",
+      "data_type": "places",
+      "estimated_rows": 82205,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DZ",
+      "data_type": "places",
+      "estimated_rows": 437489,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EC",
+      "data_type": "places",
+      "estimated_rows": 253397,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EE",
+      "data_type": "places",
+      "estimated_rows": 54972,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EG",
+      "data_type": "places",
+      "estimated_rows": 313679,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ER",
+      "data_type": "places",
+      "estimated_rows": 3212,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ES",
+      "data_type": "places",
+      "estimated_rows": 2479771,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ET",
+      "data_type": "places",
+      "estimated_rows": 17362,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FI",
+      "data_type": "places",
+      "estimated_rows": 334010,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FJ",
+      "data_type": "places",
+      "estimated_rows": 1455321,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FM",
+      "data_type": "places",
+      "estimated_rows": 272,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FR",
+      "data_type": "places",
+      "estimated_rows": 5486869,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GA",
+      "data_type": "places",
+      "estimated_rows": 4443,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GB",
+      "data_type": "places",
+      "estimated_rows": 3691675,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GD",
+      "data_type": "places",
+      "estimated_rows": 1658,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GE",
+      "data_type": "places",
+      "estimated_rows": 59643,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GH",
+      "data_type": "places",
+      "estimated_rows": 35248,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GM",
+      "data_type": "places",
+      "estimated_rows": 1744,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GN",
+      "data_type": "places",
+      "estimated_rows": 10159,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GQ",
+      "data_type": "places",
+      "estimated_rows": 4600,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GR",
+      "data_type": "places",
+      "estimated_rows": 1421139,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GT",
+      "data_type": "places",
+      "estimated_rows": 130610,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GW",
+      "data_type": "places",
+      "estimated_rows": 879,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GY",
+      "data_type": "places",
+      "estimated_rows": 16755,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HN",
+      "data_type": "places",
+      "estimated_rows": 105815,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HR",
+      "data_type": "places",
+      "estimated_rows": 376076,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HT",
+      "data_type": "places",
+      "estimated_rows": 7843,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HU",
+      "data_type": "places",
+      "estimated_rows": 560036,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ID",
+      "data_type": "places",
+      "estimated_rows": 2872004,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IE",
+      "data_type": "places",
+      "estimated_rows": 213774,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IL",
+      "data_type": "places",
+      "estimated_rows": 193256,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IN",
+      "data_type": "places",
+      "estimated_rows": 4878565,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IQ",
+      "data_type": "places",
+      "estimated_rows": 106127,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IR",
+      "data_type": "places",
+      "estimated_rows": 288498,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IS",
+      "data_type": "places",
+      "estimated_rows": 20445,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IT",
+      "data_type": "places",
+      "estimated_rows": 3204121,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JM",
+      "data_type": "places",
+      "estimated_rows": 15952,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JO",
+      "data_type": "places",
+      "estimated_rows": 147388,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JP",
+      "data_type": "places",
+      "estimated_rows": 3495218,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KE",
+      "data_type": "places",
+      "estimated_rows": 93887,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KG",
+      "data_type": "places",
+      "estimated_rows": 38900,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KH",
+      "data_type": "places",
+      "estimated_rows": 695005,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KI",
+      "data_type": "places",
+      "estimated_rows": 4446328,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KM",
+      "data_type": "places",
+      "estimated_rows": 376,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KN",
+      "data_type": "places",
+      "estimated_rows": 1299,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KP",
+      "data_type": "places",
+      "estimated_rows": 32932,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KR",
+      "data_type": "places",
+      "estimated_rows": 655678,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KW",
+      "data_type": "places",
+      "estimated_rows": 27331,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KZ",
+      "data_type": "places",
+      "estimated_rows": 164436,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LA",
+      "data_type": "places",
+      "estimated_rows": 1413478,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LB",
+      "data_type": "places",
+      "estimated_rows": 56238,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LC",
+      "data_type": "places",
+      "estimated_rows": 2443,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LI",
+      "data_type": "places",
+      "estimated_rows": 5348,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LK",
+      "data_type": "places",
+      "estimated_rows": 124964,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LR",
+      "data_type": "places",
+      "estimated_rows": 4014,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LS",
+      "data_type": "places",
+      "estimated_rows": 7164,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LT",
+      "data_type": "places",
+      "estimated_rows": 88795,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LU",
+      "data_type": "places",
+      "estimated_rows": 36299,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LV",
+      "data_type": "places",
+      "estimated_rows": 85167,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LY",
+      "data_type": "places",
+      "estimated_rows": 28122,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MA",
+      "data_type": "places",
+      "estimated_rows": 218959,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MC",
+      "data_type": "places",
+      "estimated_rows": 3178,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MD",
+      "data_type": "places",
+      "estimated_rows": 59519,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ME",
+      "data_type": "places",
+      "estimated_rows": 24990,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MF",
+      "data_type": "places",
+      "estimated_rows": 1271,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MG",
+      "data_type": "places",
+      "estimated_rows": 13141,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MH",
+      "data_type": "places",
+      "estimated_rows": 207,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MK",
+      "data_type": "places",
+      "estimated_rows": 53799,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ML",
+      "data_type": "places",
+      "estimated_rows": 14951,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MM",
+      "data_type": "places",
+      "estimated_rows": 1366235,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MN",
+      "data_type": "places",
+      "estimated_rows": 24626,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MR",
+      "data_type": "places",
+      "estimated_rows": 4456,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MT",
+      "data_type": "places",
+      "estimated_rows": 22500,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MU",
+      "data_type": "places",
+      "estimated_rows": 17888,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MV",
+      "data_type": "places",
+      "estimated_rows": 9273,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MW",
+      "data_type": "places",
+      "estimated_rows": 7857,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MX",
+      "data_type": "places",
+      "estimated_rows": 4670731,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MY",
+      "data_type": "places",
+      "estimated_rows": 1118835,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MZ",
+      "data_type": "places",
+      "estimated_rows": 69705,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NA",
+      "data_type": "places",
+      "estimated_rows": 25383,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NE",
+      "data_type": "places",
+      "estimated_rows": 9827,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NG",
+      "data_type": "places",
+      "estimated_rows": 144585,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NI",
+      "data_type": "places",
+      "estimated_rows": 61554,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NL",
+      "data_type": "places",
+      "estimated_rows": 1501796,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NO",
+      "data_type": "places",
+      "estimated_rows": 947556,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NP",
+      "data_type": "places",
+      "estimated_rows": 222560,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NR",
+      "data_type": "places",
+      "estimated_rows": 38,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NZ",
+      "data_type": "places",
+      "estimated_rows": 3011984,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "OM",
+      "data_type": "places",
+      "estimated_rows": 163815,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PA",
+      "data_type": "places",
+      "estimated_rows": 34133,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PE",
+      "data_type": "places",
+      "estimated_rows": 637738,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PG",
+      "data_type": "places",
+      "estimated_rows": 4811,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PH",
+      "data_type": "places",
+      "estimated_rows": 1086371,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PK",
+      "data_type": "places",
+      "estimated_rows": 866118,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PL",
+      "data_type": "places",
+      "estimated_rows": 1532469,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PT",
+      "data_type": "places",
+      "estimated_rows": 547263,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PW",
+      "data_type": "places",
+      "estimated_rows": 447,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PY",
+      "data_type": "places",
+      "estimated_rows": 241134,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "QA",
+      "data_type": "places",
+      "estimated_rows": 24806,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RO",
+      "data_type": "places",
+      "estimated_rows": 487249,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RS",
+      "data_type": "places",
+      "estimated_rows": 183636,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RU",
+      "data_type": "places",
+      "estimated_rows": 25817702,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RW",
+      "data_type": "places",
+      "estimated_rows": 4733,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SA",
+      "data_type": "places",
+      "estimated_rows": 521497,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SB",
+      "data_type": "places",
+      "estimated_rows": 671,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SC",
+      "data_type": "places",
+      "estimated_rows": 1566,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SD",
+      "data_type": "places",
+      "estimated_rows": 23813,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SE",
+      "data_type": "places",
+      "estimated_rows": 790802,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SG",
+      "data_type": "places",
+      "estimated_rows": 146505,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SI",
+      "data_type": "places",
+      "estimated_rows": 158746,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SK",
+      "data_type": "places",
+      "estimated_rows": 252967,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SL",
+      "data_type": "places",
+      "estimated_rows": 2693,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SM",
+      "data_type": "places",
+      "estimated_rows": 2422,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SN",
+      "data_type": "places",
+      "estimated_rows": 13673,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SO",
+      "data_type": "places",
+      "estimated_rows": 6915,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SR",
+      "data_type": "places",
+      "estimated_rows": 7977,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SS",
+      "data_type": "places",
+      "estimated_rows": 4958,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ST",
+      "data_type": "places",
+      "estimated_rows": 346,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SV",
+      "data_type": "places",
+      "estimated_rows": 62503,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SX",
+      "data_type": "places",
+      "estimated_rows": 1766,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SY",
+      "data_type": "places",
+      "estimated_rows": 118018,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SZ",
+      "data_type": "places",
+      "estimated_rows": 4842,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TD",
+      "data_type": "places",
+      "estimated_rows": 5343,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TG",
+      "data_type": "places",
+      "estimated_rows": 5247,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TH",
+      "data_type": "places",
+      "estimated_rows": 2251738,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TJ",
+      "data_type": "places",
+      "estimated_rows": 5414,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TL",
+      "data_type": "places",
+      "estimated_rows": 3767,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TM",
+      "data_type": "places",
+      "estimated_rows": 6238,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TN",
+      "data_type": "places",
+      "estimated_rows": 67699,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TO",
+      "data_type": "places",
+      "estimated_rows": 639,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TR",
+      "data_type": "places",
+      "estimated_rows": 1897817,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TT",
+      "data_type": "places",
+      "estimated_rows": 23333,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TV",
+      "data_type": "places",
+      "estimated_rows": 40,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TW",
+      "data_type": "places",
+      "estimated_rows": 1637416,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TZ",
+      "data_type": "places",
+      "estimated_rows": 100566,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UA",
+      "data_type": "places",
+      "estimated_rows": 712308,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UG",
+      "data_type": "places",
+      "estimated_rows": 39299,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "US",
+      "data_type": "places",
+      "estimated_rows": 55032785,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UY",
+      "data_type": "places",
+      "estimated_rows": 276527,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UZ",
+      "data_type": "places",
+      "estimated_rows": 28049,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VA",
+      "data_type": "places",
+      "estimated_rows": 751,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VC",
+      "data_type": "places",
+      "estimated_rows": 1113,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VE",
+      "data_type": "places",
+      "estimated_rows": 188986,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VN",
+      "data_type": "places",
+      "estimated_rows": 1978020,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VU",
+      "data_type": "places",
+      "estimated_rows": 1087,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "WS",
+      "data_type": "places",
+      "estimated_rows": 960,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XA",
+      "data_type": "places",
+      "estimated_rows": 2,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XB",
+      "data_type": "places",
+      "estimated_rows": 2,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XC",
+      "data_type": "places",
+      "estimated_rows": 4,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XD",
+      "data_type": "places",
+      "estimated_rows": 3,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XG",
+      "data_type": "places",
+      "estimated_rows": 4080,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XH",
+      "data_type": "places",
+      "estimated_rows": 1650,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XI",
+      "data_type": "places",
+      "estimated_rows": 18,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XK",
+      "data_type": "places",
+      "estimated_rows": 48476,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XL",
+      "data_type": "places",
+      "estimated_rows": 44,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XM",
+      "data_type": "places",
+      "estimated_rows": 1,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XN",
+      "data_type": "places",
+      "estimated_rows": 2,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XO",
+      "data_type": "places",
+      "estimated_rows": 7,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XP",
+      "data_type": "places",
+      "estimated_rows": 4,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XQ",
+      "data_type": "places",
+      "estimated_rows": 33,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XR",
+      "data_type": "places",
+      "estimated_rows": 17,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XT",
+      "data_type": "places",
+      "estimated_rows": 110,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XU",
+      "data_type": "places",
+      "estimated_rows": 16,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XW",
+      "data_type": "places",
+      "estimated_rows": 59156,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XX",
+      "data_type": "places",
+      "estimated_rows": 4,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XY",
+      "data_type": "places",
+      "estimated_rows": 13,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XZ",
+      "data_type": "places",
+      "estimated_rows": 1681,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "YE",
+      "data_type": "places",
+      "estimated_rows": 13278,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZA",
+      "data_type": "places",
+      "estimated_rows": 703936,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZM",
+      "data_type": "places",
+      "estimated_rows": 44839,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZW",
+      "data_type": "places",
+      "estimated_rows": 28661,
       "release": "2026-05-20.0"
     },
     {
@@ -47,15 +2663,3939 @@
       "release": "2026-05-20.0"
     },
     {
+      "country": "AE",
+      "data_type": "buildings",
+      "estimated_rows": 1423466,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AF",
+      "data_type": "buildings",
+      "estimated_rows": 56657627,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AG",
+      "data_type": "buildings",
+      "estimated_rows": 71624,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AL",
+      "data_type": "buildings",
+      "estimated_rows": 1824320,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AM",
+      "data_type": "buildings",
+      "estimated_rows": 1418129,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AO",
+      "data_type": "buildings",
+      "estimated_rows": 20615536,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AQ",
+      "data_type": "buildings",
+      "estimated_rows": 1404,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AR",
+      "data_type": "buildings",
+      "estimated_rows": 45697838,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AT",
+      "data_type": "buildings",
+      "estimated_rows": 11372865,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AU",
+      "data_type": "buildings",
+      "estimated_rows": 14560588,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AZ",
+      "data_type": "buildings",
+      "estimated_rows": 3538290,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BA",
+      "data_type": "buildings",
+      "estimated_rows": 3636949,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BB",
+      "data_type": "buildings",
+      "estimated_rows": 204956,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BD",
+      "data_type": "buildings",
+      "estimated_rows": 64928647,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BE",
+      "data_type": "buildings",
+      "estimated_rows": 14173816,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BF",
+      "data_type": "buildings",
+      "estimated_rows": 21049693,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BG",
+      "data_type": "buildings",
+      "estimated_rows": 5749569,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BH",
+      "data_type": "buildings",
+      "estimated_rows": 191524,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BI",
+      "data_type": "buildings",
+      "estimated_rows": 5373885,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BJ",
+      "data_type": "buildings",
+      "estimated_rows": 13740961,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BN",
+      "data_type": "buildings",
+      "estimated_rows": 239790,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BO",
+      "data_type": "buildings",
+      "estimated_rows": 10640259,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BR",
+      "data_type": "buildings",
+      "estimated_rows": 147856314,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BS",
+      "data_type": "buildings",
+      "estimated_rows": 3159473,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BT",
+      "data_type": "buildings",
+      "estimated_rows": 1014843,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BW",
+      "data_type": "buildings",
+      "estimated_rows": 16654220,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BY",
+      "data_type": "buildings",
+      "estimated_rows": 10830109,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BZ",
+      "data_type": "buildings",
+      "estimated_rows": 317771,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CA",
+      "data_type": "buildings",
+      "estimated_rows": 51399214,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CD",
+      "data_type": "buildings",
+      "estimated_rows": 56918897,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CF",
+      "data_type": "buildings",
+      "estimated_rows": 7576742,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CG",
+      "data_type": "buildings",
+      "estimated_rows": 4970885,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CH",
+      "data_type": "buildings",
+      "estimated_rows": 5838038,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CI",
+      "data_type": "buildings",
+      "estimated_rows": 11797964,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CL",
+      "data_type": "buildings",
+      "estimated_rows": 15247225,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CM",
+      "data_type": "buildings",
+      "estimated_rows": 31735655,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CN",
+      "data_type": "buildings",
+      "estimated_rows": 604695985,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CO",
+      "data_type": "buildings",
+      "estimated_rows": 32308223,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CR",
+      "data_type": "buildings",
+      "estimated_rows": 2670551,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CU",
+      "data_type": "buildings",
+      "estimated_rows": 4192030,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CV",
+      "data_type": "buildings",
+      "estimated_rows": 192442,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CY",
+      "data_type": "buildings",
+      "estimated_rows": 774693,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CZ",
+      "data_type": "buildings",
+      "estimated_rows": 11677025,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DE",
+      "data_type": "buildings",
+      "estimated_rows": 59008742,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DJ",
+      "data_type": "buildings",
+      "estimated_rows": 243735,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DK",
+      "data_type": "buildings",
+      "estimated_rows": 6066094,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DM",
+      "data_type": "buildings",
+      "estimated_rows": 56823,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DO",
+      "data_type": "buildings",
+      "estimated_rows": 4083742,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DZ",
+      "data_type": "buildings",
+      "estimated_rows": 22580465,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EC",
+      "data_type": "buildings",
+      "estimated_rows": 8657279,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EE",
+      "data_type": "buildings",
+      "estimated_rows": 1316801,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EG",
+      "data_type": "buildings",
+      "estimated_rows": 16410915,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ER",
+      "data_type": "buildings",
+      "estimated_rows": 5314483,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ES",
+      "data_type": "buildings",
+      "estimated_rows": 41495903,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ET",
+      "data_type": "buildings",
+      "estimated_rows": 45159112,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FI",
+      "data_type": "buildings",
+      "estimated_rows": 8205255,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FJ",
+      "data_type": "buildings",
+      "estimated_rows": 99762851,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FM",
+      "data_type": "buildings",
+      "estimated_rows": 29119,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FR",
+      "data_type": "buildings",
+      "estimated_rows": 86385267,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GA",
+      "data_type": "buildings",
+      "estimated_rows": 1129999,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GB",
+      "data_type": "buildings",
+      "estimated_rows": 29116453,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GD",
+      "data_type": "buildings",
+      "estimated_rows": 77003,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GE",
+      "data_type": "buildings",
+      "estimated_rows": 3066030,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GH",
+      "data_type": "buildings",
+      "estimated_rows": 15377722,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GM",
+      "data_type": "buildings",
+      "estimated_rows": 1157935,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GN",
+      "data_type": "buildings",
+      "estimated_rows": 8269953,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GQ",
+      "data_type": "buildings",
+      "estimated_rows": 1165932,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GR",
+      "data_type": "buildings",
+      "estimated_rows": 14193707,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GT",
+      "data_type": "buildings",
+      "estimated_rows": 10999186,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GW",
+      "data_type": "buildings",
+      "estimated_rows": 661995,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GY",
+      "data_type": "buildings",
+      "estimated_rows": 759229,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HN",
+      "data_type": "buildings",
+      "estimated_rows": 6965744,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HR",
+      "data_type": "buildings",
+      "estimated_rows": 8208191,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HT",
+      "data_type": "buildings",
+      "estimated_rows": 4013135,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HU",
+      "data_type": "buildings",
+      "estimated_rows": 10891062,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ID",
+      "data_type": "buildings",
+      "estimated_rows": 115251666,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IE",
+      "data_type": "buildings",
+      "estimated_rows": 4500952,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IL",
+      "data_type": "buildings",
+      "estimated_rows": 2696410,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IN",
+      "data_type": "buildings",
+      "estimated_rows": 500532326,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IQ",
+      "data_type": "buildings",
+      "estimated_rows": 10964531,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IR",
+      "data_type": "buildings",
+      "estimated_rows": 24145496,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IS",
+      "data_type": "buildings",
+      "estimated_rows": 205511,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IT",
+      "data_type": "buildings",
+      "estimated_rows": 35468959,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JM",
+      "data_type": "buildings",
+      "estimated_rows": 1522370,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JO",
+      "data_type": "buildings",
+      "estimated_rows": 3255202,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JP",
+      "data_type": "buildings",
+      "estimated_rows": 69060897,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KE",
+      "data_type": "buildings",
+      "estimated_rows": 33401808,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KG",
+      "data_type": "buildings",
+      "estimated_rows": 6386726,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KH",
+      "data_type": "buildings",
+      "estimated_rows": 21111203,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KI",
+      "data_type": "buildings",
+      "estimated_rows": 288833370,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KM",
+      "data_type": "buildings",
+      "estimated_rows": 235305,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KN",
+      "data_type": "buildings",
+      "estimated_rows": 40473,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KP",
+      "data_type": "buildings",
+      "estimated_rows": 2755267,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KR",
+      "data_type": "buildings",
+      "estimated_rows": 5972522,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KW",
+      "data_type": "buildings",
+      "estimated_rows": 258416,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KZ",
+      "data_type": "buildings",
+      "estimated_rows": 26400010,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LA",
+      "data_type": "buildings",
+      "estimated_rows": 51548353,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LB",
+      "data_type": "buildings",
+      "estimated_rows": 1792520,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LC",
+      "data_type": "buildings",
+      "estimated_rows": 99318,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LI",
+      "data_type": "buildings",
+      "estimated_rows": 45769,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LK",
+      "data_type": "buildings",
+      "estimated_rows": 8924798,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LR",
+      "data_type": "buildings",
+      "estimated_rows": 3170733,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LS",
+      "data_type": "buildings",
+      "estimated_rows": 2314605,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LT",
+      "data_type": "buildings",
+      "estimated_rows": 3521832,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LU",
+      "data_type": "buildings",
+      "estimated_rows": 421578,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LV",
+      "data_type": "buildings",
+      "estimated_rows": 2793813,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LY",
+      "data_type": "buildings",
+      "estimated_rows": 3437908,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MA",
+      "data_type": "buildings",
+      "estimated_rows": 5852204,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MC",
+      "data_type": "buildings",
+      "estimated_rows": 5218,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MD",
+      "data_type": "buildings",
+      "estimated_rows": 5111724,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ME",
+      "data_type": "buildings",
+      "estimated_rows": 726580,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MF",
+      "data_type": "buildings",
+      "estimated_rows": 27202,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MG",
+      "data_type": "buildings",
+      "estimated_rows": 12121027,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MH",
+      "data_type": "buildings",
+      "estimated_rows": 12669,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MK",
+      "data_type": "buildings",
+      "estimated_rows": 1175151,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ML",
+      "data_type": "buildings",
+      "estimated_rows": 29057157,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MM",
+      "data_type": "buildings",
+      "estimated_rows": 47595181,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MN",
+      "data_type": "buildings",
+      "estimated_rows": 3008858,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MR",
+      "data_type": "buildings",
+      "estimated_rows": 4858864,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MT",
+      "data_type": "buildings",
+      "estimated_rows": 80521,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MU",
+      "data_type": "buildings",
+      "estimated_rows": 462623,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MV",
+      "data_type": "buildings",
+      "estimated_rows": 127500,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MW",
+      "data_type": "buildings",
+      "estimated_rows": 14277554,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MX",
+      "data_type": "buildings",
+      "estimated_rows": 89816945,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MY",
+      "data_type": "buildings",
+      "estimated_rows": 15871681,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MZ",
+      "data_type": "buildings",
+      "estimated_rows": 42552061,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NA",
+      "data_type": "buildings",
+      "estimated_rows": 4974127,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NE",
+      "data_type": "buildings",
+      "estimated_rows": 24530813,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NG",
+      "data_type": "buildings",
+      "estimated_rows": 70835925,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NI",
+      "data_type": "buildings",
+      "estimated_rows": 4054487,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NL",
+      "data_type": "buildings",
+      "estimated_rows": 21185484,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NO",
+      "data_type": "buildings",
+      "estimated_rows": 19647250,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NP",
+      "data_type": "buildings",
+      "estimated_rows": 36149889,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NR",
+      "data_type": "buildings",
+      "estimated_rows": 2529,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NZ",
+      "data_type": "buildings",
+      "estimated_rows": 64471046,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "OM",
+      "data_type": "buildings",
+      "estimated_rows": 1901201,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PA",
+      "data_type": "buildings",
+      "estimated_rows": 1885939,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PE",
+      "data_type": "buildings",
+      "estimated_rows": 23908103,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PG",
+      "data_type": "buildings",
+      "estimated_rows": 776547,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PH",
+      "data_type": "buildings",
+      "estimated_rows": 32688317,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PK",
+      "data_type": "buildings",
+      "estimated_rows": 120372364,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PL",
+      "data_type": "buildings",
+      "estimated_rows": 30645438,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PT",
+      "data_type": "buildings",
+      "estimated_rows": 9244872,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PW",
+      "data_type": "buildings",
+      "estimated_rows": 4468,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PY",
+      "data_type": "buildings",
+      "estimated_rows": 7752406,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "QA",
+      "data_type": "buildings",
+      "estimated_rows": 523585,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RO",
+      "data_type": "buildings",
+      "estimated_rows": 20160349,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RS",
+      "data_type": "buildings",
+      "estimated_rows": 7799218,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RU",
+      "data_type": "buildings",
+      "estimated_rows": 479572711,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RW",
+      "data_type": "buildings",
+      "estimated_rows": 8442561,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SA",
+      "data_type": "buildings",
+      "estimated_rows": 14156652,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SB",
+      "data_type": "buildings",
+      "estimated_rows": 138774,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SC",
+      "data_type": "buildings",
+      "estimated_rows": 53577,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SD",
+      "data_type": "buildings",
+      "estimated_rows": 32697603,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SE",
+      "data_type": "buildings",
+      "estimated_rows": 13322209,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SG",
+      "data_type": "buildings",
+      "estimated_rows": 303944,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SI",
+      "data_type": "buildings",
+      "estimated_rows": 2865530,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SK",
+      "data_type": "buildings",
+      "estimated_rows": 6175053,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SL",
+      "data_type": "buildings",
+      "estimated_rows": 1878687,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SM",
+      "data_type": "buildings",
+      "estimated_rows": 10716,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SN",
+      "data_type": "buildings",
+      "estimated_rows": 7114693,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SO",
+      "data_type": "buildings",
+      "estimated_rows": 6181884,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SR",
+      "data_type": "buildings",
+      "estimated_rows": 440410,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SS",
+      "data_type": "buildings",
+      "estimated_rows": 12308879,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ST",
+      "data_type": "buildings",
+      "estimated_rows": 89922,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SV",
+      "data_type": "buildings",
+      "estimated_rows": 3199127,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SX",
+      "data_type": "buildings",
+      "estimated_rows": 25262,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SY",
+      "data_type": "buildings",
+      "estimated_rows": 7490944,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SZ",
+      "data_type": "buildings",
+      "estimated_rows": 1613384,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TD",
+      "data_type": "buildings",
+      "estimated_rows": 10371432,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TG",
+      "data_type": "buildings",
+      "estimated_rows": 6074298,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TH",
+      "data_type": "buildings",
+      "estimated_rows": 60799726,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TJ",
+      "data_type": "buildings",
+      "estimated_rows": 6426786,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TL",
+      "data_type": "buildings",
+      "estimated_rows": 1068870,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TM",
+      "data_type": "buildings",
+      "estimated_rows": 7266941,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TN",
+      "data_type": "buildings",
+      "estimated_rows": 5586758,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TO",
+      "data_type": "buildings",
+      "estimated_rows": 50209,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TR",
+      "data_type": "buildings",
+      "estimated_rows": 27024462,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TT",
+      "data_type": "buildings",
+      "estimated_rows": 720242,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TV",
+      "data_type": "buildings",
+      "estimated_rows": 4259,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TW",
+      "data_type": "buildings",
+      "estimated_rows": 26717048,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TZ",
+      "data_type": "buildings",
+      "estimated_rows": 48548665,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UA",
+      "data_type": "buildings",
+      "estimated_rows": 50178519,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UG",
+      "data_type": "buildings",
+      "estimated_rows": 33604118,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "US",
+      "data_type": "buildings",
+      "estimated_rows": 1474136374,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UY",
+      "data_type": "buildings",
+      "estimated_rows": 5631521,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UZ",
+      "data_type": "buildings",
+      "estimated_rows": 13341163,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VA",
+      "data_type": "buildings",
+      "estimated_rows": 474,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VC",
+      "data_type": "buildings",
+      "estimated_rows": 67600,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VE",
+      "data_type": "buildings",
+      "estimated_rows": 14749600,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VN",
+      "data_type": "buildings",
+      "estimated_rows": 77004163,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VU",
+      "data_type": "buildings",
+      "estimated_rows": 201116,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "WS",
+      "data_type": "buildings",
+      "estimated_rows": 70295,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XA",
+      "data_type": "buildings",
+      "estimated_rows": 76,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XB",
+      "data_type": "buildings",
+      "estimated_rows": 9,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XC",
+      "data_type": "buildings",
+      "estimated_rows": 2306,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XD",
+      "data_type": "buildings",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XG",
+      "data_type": "buildings",
+      "estimated_rows": 361264,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XH",
+      "data_type": "buildings",
+      "estimated_rows": 60376,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XI",
+      "data_type": "buildings",
+      "estimated_rows": 1647,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XK",
+      "data_type": "buildings",
+      "estimated_rows": 1327730,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XL",
+      "data_type": "buildings",
+      "estimated_rows": 3636,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XM",
+      "data_type": "buildings",
+      "estimated_rows": 1184,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XN",
+      "data_type": "buildings",
+      "estimated_rows": 392,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XO",
+      "data_type": "buildings",
+      "estimated_rows": 1125,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XP",
+      "data_type": "buildings",
+      "estimated_rows": 927,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XQ",
+      "data_type": "buildings",
+      "estimated_rows": 1400,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XR",
+      "data_type": "buildings",
+      "estimated_rows": 1365,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XT",
+      "data_type": "buildings",
+      "estimated_rows": 1007,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XU",
+      "data_type": "buildings",
+      "estimated_rows": 1392,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XW",
+      "data_type": "buildings",
+      "estimated_rows": 1001233,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XX",
+      "data_type": "buildings",
+      "estimated_rows": 2730,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XY",
+      "data_type": "buildings",
+      "estimated_rows": 69915,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XZ",
+      "data_type": "buildings",
+      "estimated_rows": 27715,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "YE",
+      "data_type": "buildings",
+      "estimated_rows": 5924743,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZA",
+      "data_type": "buildings",
+      "estimated_rows": 45882698,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZM",
+      "data_type": "buildings",
+      "estimated_rows": 22349602,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZW",
+      "data_type": "buildings",
+      "estimated_rows": 14870188,
+      "release": "2026-05-20.0"
+    },
+    {
       "country": "AD",
       "data_type": "segments",
       "estimated_rows": 8239,
       "release": "2026-05-20.0"
     },
     {
+      "country": "AE",
+      "data_type": "segments",
+      "estimated_rows": 822846,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AF",
+      "data_type": "segments",
+      "estimated_rows": 3037051,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AG",
+      "data_type": "segments",
+      "estimated_rows": 15101,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AL",
+      "data_type": "segments",
+      "estimated_rows": 356231,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AM",
+      "data_type": "segments",
+      "estimated_rows": 347653,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AO",
+      "data_type": "segments",
+      "estimated_rows": 908385,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AQ",
+      "data_type": "segments",
+      "estimated_rows": 1379,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AR",
+      "data_type": "segments",
+      "estimated_rows": 5462910,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AT",
+      "data_type": "segments",
+      "estimated_rows": 5013109,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AU",
+      "data_type": "segments",
+      "estimated_rows": 3852520,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AZ",
+      "data_type": "segments",
+      "estimated_rows": 842542,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BA",
+      "data_type": "segments",
+      "estimated_rows": 548683,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BB",
+      "data_type": "segments",
+      "estimated_rows": 31290,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BD",
+      "data_type": "segments",
+      "estimated_rows": 1852023,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BE",
+      "data_type": "segments",
+      "estimated_rows": 2523825,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BF",
+      "data_type": "segments",
+      "estimated_rows": 910668,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BG",
+      "data_type": "segments",
+      "estimated_rows": 1095954,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BH",
+      "data_type": "segments",
+      "estimated_rows": 108981,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BI",
+      "data_type": "segments",
+      "estimated_rows": 296017,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BJ",
+      "data_type": "segments",
+      "estimated_rows": 781685,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BN",
+      "data_type": "segments",
+      "estimated_rows": 44993,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BO",
+      "data_type": "segments",
+      "estimated_rows": 1182277,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BR",
+      "data_type": "segments",
+      "estimated_rows": 18006121,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BS",
+      "data_type": "segments",
+      "estimated_rows": 899027,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BT",
+      "data_type": "segments",
+      "estimated_rows": 61858,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BW",
+      "data_type": "segments",
+      "estimated_rows": 1494854,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BY",
+      "data_type": "segments",
+      "estimated_rows": 1718073,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BZ",
+      "data_type": "segments",
+      "estimated_rows": 58819,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CA",
+      "data_type": "segments",
+      "estimated_rows": 18785621,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CD",
+      "data_type": "segments",
+      "estimated_rows": 2711296,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CF",
+      "data_type": "segments",
+      "estimated_rows": 295364,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CG",
+      "data_type": "segments",
+      "estimated_rows": 326364,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CH",
+      "data_type": "segments",
+      "estimated_rows": 2826605,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CI",
+      "data_type": "segments",
+      "estimated_rows": 522566,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CL",
+      "data_type": "segments",
+      "estimated_rows": 2044380,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CM",
+      "data_type": "segments",
+      "estimated_rows": 1459194,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CN",
+      "data_type": "segments",
+      "estimated_rows": 41370995,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CO",
+      "data_type": "segments",
+      "estimated_rows": 3407225,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CR",
+      "data_type": "segments",
+      "estimated_rows": 235145,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CU",
+      "data_type": "segments",
+      "estimated_rows": 419897,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CV",
+      "data_type": "segments",
+      "estimated_rows": 36546,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CY",
+      "data_type": "segments",
+      "estimated_rows": 232216,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CZ",
+      "data_type": "segments",
+      "estimated_rows": 3477788,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DE",
+      "data_type": "segments",
+      "estimated_rows": 19218234,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DJ",
+      "data_type": "segments",
+      "estimated_rows": 21636,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DK",
+      "data_type": "segments",
+      "estimated_rows": 2209347,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DM",
+      "data_type": "segments",
+      "estimated_rows": 6527,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DO",
+      "data_type": "segments",
+      "estimated_rows": 411525,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DZ",
+      "data_type": "segments",
+      "estimated_rows": 4008658,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EC",
+      "data_type": "segments",
+      "estimated_rows": 976883,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EE",
+      "data_type": "segments",
+      "estimated_rows": 403112,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EG",
+      "data_type": "segments",
+      "estimated_rows": 3667411,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ER",
+      "data_type": "segments",
+      "estimated_rows": 302084,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ES",
+      "data_type": "segments",
+      "estimated_rows": 12068064,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ET",
+      "data_type": "segments",
+      "estimated_rows": 1548657,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FI",
+      "data_type": "segments",
+      "estimated_rows": 2829420,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FJ",
+      "data_type": "segments",
+      "estimated_rows": 8223646,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FM",
+      "data_type": "segments",
+      "estimated_rows": 2237,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FR",
+      "data_type": "segments",
+      "estimated_rows": 24259827,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GA",
+      "data_type": "segments",
+      "estimated_rows": 68390,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GB",
+      "data_type": "segments",
+      "estimated_rows": 9401713,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GD",
+      "data_type": "segments",
+      "estimated_rows": 8627,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GE",
+      "data_type": "segments",
+      "estimated_rows": 609019,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GH",
+      "data_type": "segments",
+      "estimated_rows": 825900,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GM",
+      "data_type": "segments",
+      "estimated_rows": 191414,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GN",
+      "data_type": "segments",
+      "estimated_rows": 751718,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GQ",
+      "data_type": "segments",
+      "estimated_rows": 68200,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GR",
+      "data_type": "segments",
+      "estimated_rows": 3786046,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GT",
+      "data_type": "segments",
+      "estimated_rows": 828261,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GW",
+      "data_type": "segments",
+      "estimated_rows": 83170,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GY",
+      "data_type": "segments",
+      "estimated_rows": 82571,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HN",
+      "data_type": "segments",
+      "estimated_rows": 588177,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HR",
+      "data_type": "segments",
+      "estimated_rows": 1839342,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HT",
+      "data_type": "segments",
+      "estimated_rows": 185961,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HU",
+      "data_type": "segments",
+      "estimated_rows": 2086208,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ID",
+      "data_type": "segments",
+      "estimated_rows": 11169722,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IE",
+      "data_type": "segments",
+      "estimated_rows": 1401794,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IL",
+      "data_type": "segments",
+      "estimated_rows": 749207,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IN",
+      "data_type": "segments",
+      "estimated_rows": 29867671,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IQ",
+      "data_type": "segments",
+      "estimated_rows": 2252650,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IR",
+      "data_type": "segments",
+      "estimated_rows": 6328241,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IS",
+      "data_type": "segments",
+      "estimated_rows": 113626,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IT",
+      "data_type": "segments",
+      "estimated_rows": 11348643,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JM",
+      "data_type": "segments",
+      "estimated_rows": 101097,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JO",
+      "data_type": "segments",
+      "estimated_rows": 816439,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JP",
+      "data_type": "segments",
+      "estimated_rows": 16061225,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KE",
+      "data_type": "segments",
+      "estimated_rows": 1821080,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KG",
+      "data_type": "segments",
+      "estimated_rows": 847565,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KH",
+      "data_type": "segments",
+      "estimated_rows": 1473060,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KI",
+      "data_type": "segments",
+      "estimated_rows": 24604130,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KM",
+      "data_type": "segments",
+      "estimated_rows": 9712,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KN",
+      "data_type": "segments",
+      "estimated_rows": 8936,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KP",
+      "data_type": "segments",
+      "estimated_rows": 581943,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KR",
+      "data_type": "segments",
+      "estimated_rows": 2785839,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KW",
+      "data_type": "segments",
+      "estimated_rows": 182854,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KZ",
+      "data_type": "segments",
+      "estimated_rows": 3794877,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LA",
+      "data_type": "segments",
+      "estimated_rows": 4955780,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LB",
+      "data_type": "segments",
+      "estimated_rows": 371444,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LC",
+      "data_type": "segments",
+      "estimated_rows": 10867,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LI",
+      "data_type": "segments",
+      "estimated_rows": 28724,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LK",
+      "data_type": "segments",
+      "estimated_rows": 566878,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LR",
+      "data_type": "segments",
+      "estimated_rows": 194527,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LS",
+      "data_type": "segments",
+      "estimated_rows": 207802,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LT",
+      "data_type": "segments",
+      "estimated_rows": 768752,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LU",
+      "data_type": "segments",
+      "estimated_rows": 173956,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LV",
+      "data_type": "segments",
+      "estimated_rows": 708753,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LY",
+      "data_type": "segments",
+      "estimated_rows": 649499,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MA",
+      "data_type": "segments",
+      "estimated_rows": 1792628,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MC",
+      "data_type": "segments",
+      "estimated_rows": 3432,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MD",
+      "data_type": "segments",
+      "estimated_rows": 656545,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ME",
+      "data_type": "segments",
+      "estimated_rows": 154492,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MF",
+      "data_type": "segments",
+      "estimated_rows": 5028,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MG",
+      "data_type": "segments",
+      "estimated_rows": 1076612,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MH",
+      "data_type": "segments",
+      "estimated_rows": 2083,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MK",
+      "data_type": "segments",
+      "estimated_rows": 221577,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ML",
+      "data_type": "segments",
+      "estimated_rows": 1670672,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MM",
+      "data_type": "segments",
+      "estimated_rows": 4589480,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MN",
+      "data_type": "segments",
+      "estimated_rows": 490107,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MR",
+      "data_type": "segments",
+      "estimated_rows": 524347,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MT",
+      "data_type": "segments",
+      "estimated_rows": 46793,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MU",
+      "data_type": "segments",
+      "estimated_rows": 72325,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MV",
+      "data_type": "segments",
+      "estimated_rows": 30372,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MW",
+      "data_type": "segments",
+      "estimated_rows": 884234,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MX",
+      "data_type": "segments",
+      "estimated_rows": 14635737,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MY",
+      "data_type": "segments",
+      "estimated_rows": 2872913,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MZ",
+      "data_type": "segments",
+      "estimated_rows": 2144789,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NA",
+      "data_type": "segments",
+      "estimated_rows": 354970,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NE",
+      "data_type": "segments",
+      "estimated_rows": 1255880,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NG",
+      "data_type": "segments",
+      "estimated_rows": 3882914,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NI",
+      "data_type": "segments",
+      "estimated_rows": 322482,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NL",
+      "data_type": "segments",
+      "estimated_rows": 4505140,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NO",
+      "data_type": "segments",
+      "estimated_rows": 6650732,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NP",
+      "data_type": "segments",
+      "estimated_rows": 1795139,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NR",
+      "data_type": "segments",
+      "estimated_rows": 651,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NZ",
+      "data_type": "segments",
+      "estimated_rows": 9427573,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "OM",
+      "data_type": "segments",
+      "estimated_rows": 1030372,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PA",
+      "data_type": "segments",
+      "estimated_rows": 182428,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PE",
+      "data_type": "segments",
+      "estimated_rows": 2432396,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PG",
+      "data_type": "segments",
+      "estimated_rows": 127097,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PH",
+      "data_type": "segments",
+      "estimated_rows": 2308942,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PK",
+      "data_type": "segments",
+      "estimated_rows": 7222885,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PL",
+      "data_type": "segments",
+      "estimated_rows": 7940118,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PT",
+      "data_type": "segments",
+      "estimated_rows": 2981099,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PW",
+      "data_type": "segments",
+      "estimated_rows": 1404,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PY",
+      "data_type": "segments",
+      "estimated_rows": 863235,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "QA",
+      "data_type": "segments",
+      "estimated_rows": 225532,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RO",
+      "data_type": "segments",
+      "estimated_rows": 2364166,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RS",
+      "data_type": "segments",
+      "estimated_rows": 1070300,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RU",
+      "data_type": "segments",
+      "estimated_rows": 118740434,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RW",
+      "data_type": "segments",
+      "estimated_rows": 336352,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SA",
+      "data_type": "segments",
+      "estimated_rows": 4969146,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SB",
+      "data_type": "segments",
+      "estimated_rows": 14024,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SC",
+      "data_type": "segments",
+      "estimated_rows": 5366,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SD",
+      "data_type": "segments",
+      "estimated_rows": 1614199,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SE",
+      "data_type": "segments",
+      "estimated_rows": 4453279,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SG",
+      "data_type": "segments",
+      "estimated_rows": 196757,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SI",
+      "data_type": "segments",
+      "estimated_rows": 949668,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SK",
+      "data_type": "segments",
+      "estimated_rows": 1475778,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SL",
+      "data_type": "segments",
+      "estimated_rows": 177635,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SM",
+      "data_type": "segments",
+      "estimated_rows": 7236,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SN",
+      "data_type": "segments",
+      "estimated_rows": 944079,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SO",
+      "data_type": "segments",
+      "estimated_rows": 598554,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SR",
+      "data_type": "segments",
+      "estimated_rows": 45459,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SS",
+      "data_type": "segments",
+      "estimated_rows": 545102,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ST",
+      "data_type": "segments",
+      "estimated_rows": 3996,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SV",
+      "data_type": "segments",
+      "estimated_rows": 237078,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SX",
+      "data_type": "segments",
+      "estimated_rows": 4941,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SY",
+      "data_type": "segments",
+      "estimated_rows": 1277980,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SZ",
+      "data_type": "segments",
+      "estimated_rows": 119451,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TD",
+      "data_type": "segments",
+      "estimated_rows": 468591,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TG",
+      "data_type": "segments",
+      "estimated_rows": 292929,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TH",
+      "data_type": "segments",
+      "estimated_rows": 5717239,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TJ",
+      "data_type": "segments",
+      "estimated_rows": 782991,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TL",
+      "data_type": "segments",
+      "estimated_rows": 42166,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TM",
+      "data_type": "segments",
+      "estimated_rows": 1029051,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TN",
+      "data_type": "segments",
+      "estimated_rows": 889074,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TO",
+      "data_type": "segments",
+      "estimated_rows": 10558,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TR",
+      "data_type": "segments",
+      "estimated_rows": 6113428,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TT",
+      "data_type": "segments",
+      "estimated_rows": 74586,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TV",
+      "data_type": "segments",
+      "estimated_rows": 478,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TW",
+      "data_type": "segments",
+      "estimated_rows": 2822520,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TZ",
+      "data_type": "segments",
+      "estimated_rows": 4117385,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UA",
+      "data_type": "segments",
+      "estimated_rows": 5990040,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UG",
+      "data_type": "segments",
+      "estimated_rows": 1511668,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "US",
+      "data_type": "segments",
+      "estimated_rows": 253157005,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UY",
+      "data_type": "segments",
+      "estimated_rows": 535938,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UZ",
+      "data_type": "segments",
+      "estimated_rows": 1724538,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VA",
+      "data_type": "segments",
+      "estimated_rows": 956,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VC",
+      "data_type": "segments",
+      "estimated_rows": 8290,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VE",
+      "data_type": "segments",
+      "estimated_rows": 1385778,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VN",
+      "data_type": "segments",
+      "estimated_rows": 6368992,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VU",
+      "data_type": "segments",
+      "estimated_rows": 9756,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "WS",
+      "data_type": "segments",
+      "estimated_rows": 8813,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XA",
+      "data_type": "segments",
+      "estimated_rows": 51,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XB",
+      "data_type": "segments",
+      "estimated_rows": 24,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XC",
+      "data_type": "segments",
+      "estimated_rows": 306,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XD",
+      "data_type": "segments",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XG",
+      "data_type": "segments",
+      "estimated_rows": 42119,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XH",
+      "data_type": "segments",
+      "estimated_rows": 18457,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XI",
+      "data_type": "segments",
+      "estimated_rows": 1066,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XK",
+      "data_type": "segments",
+      "estimated_rows": 252381,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XL",
+      "data_type": "segments",
+      "estimated_rows": 190,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XM",
+      "data_type": "segments",
+      "estimated_rows": 495,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XN",
+      "data_type": "segments",
+      "estimated_rows": 264,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XO",
+      "data_type": "segments",
+      "estimated_rows": 374,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XP",
+      "data_type": "segments",
+      "estimated_rows": 505,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XQ",
+      "data_type": "segments",
+      "estimated_rows": 87,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XR",
+      "data_type": "segments",
+      "estimated_rows": 974,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XT",
+      "data_type": "segments",
+      "estimated_rows": 294,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XU",
+      "data_type": "segments",
+      "estimated_rows": 1046,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XW",
+      "data_type": "segments",
+      "estimated_rows": 274415,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XX",
+      "data_type": "segments",
+      "estimated_rows": 126,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XY",
+      "data_type": "segments",
+      "estimated_rows": 3751,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XZ",
+      "data_type": "segments",
+      "estimated_rows": 13021,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "YE",
+      "data_type": "segments",
+      "estimated_rows": 552589,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZA",
+      "data_type": "segments",
+      "estimated_rows": 4239289,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZM",
+      "data_type": "segments",
+      "estimated_rows": 1156198,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZW",
+      "data_type": "segments",
+      "estimated_rows": 456465,
+      "release": "2026-05-20.0"
+    },
+    {
       "country": "AD",
       "data_type": "connectors",
       "estimated_rows": 11488,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AE",
+      "data_type": "connectors",
+      "estimated_rows": 963547,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AF",
+      "data_type": "connectors",
+      "estimated_rows": 2674654,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AG",
+      "data_type": "connectors",
+      "estimated_rows": 16942,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AL",
+      "data_type": "connectors",
+      "estimated_rows": 426108,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AM",
+      "data_type": "connectors",
+      "estimated_rows": 413524,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AO",
+      "data_type": "connectors",
+      "estimated_rows": 811901,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AQ",
+      "data_type": "connectors",
+      "estimated_rows": 1661,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AR",
+      "data_type": "connectors",
+      "estimated_rows": 5127393,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AT",
+      "data_type": "connectors",
+      "estimated_rows": 7483295,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AU",
+      "data_type": "connectors",
+      "estimated_rows": 5215460,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "AZ",
+      "data_type": "connectors",
+      "estimated_rows": 923480,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BA",
+      "data_type": "connectors",
+      "estimated_rows": 702933,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BB",
+      "data_type": "connectors",
+      "estimated_rows": 34459,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BD",
+      "data_type": "connectors",
+      "estimated_rows": 1795609,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BE",
+      "data_type": "connectors",
+      "estimated_rows": 3421060,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BF",
+      "data_type": "connectors",
+      "estimated_rows": 884979,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BG",
+      "data_type": "connectors",
+      "estimated_rows": 1232371,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BH",
+      "data_type": "connectors",
+      "estimated_rows": 107319,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BI",
+      "data_type": "connectors",
+      "estimated_rows": 399538,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BJ",
+      "data_type": "connectors",
+      "estimated_rows": 716283,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BN",
+      "data_type": "connectors",
+      "estimated_rows": 52233,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BO",
+      "data_type": "connectors",
+      "estimated_rows": 1189954,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BR",
+      "data_type": "connectors",
+      "estimated_rows": 15995196,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BS",
+      "data_type": "connectors",
+      "estimated_rows": 1238484,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BT",
+      "data_type": "connectors",
+      "estimated_rows": 78244,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BW",
+      "data_type": "connectors",
+      "estimated_rows": 1424593,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BY",
+      "data_type": "connectors",
+      "estimated_rows": 2583049,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "BZ",
+      "data_type": "connectors",
+      "estimated_rows": 68186,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CA",
+      "data_type": "connectors",
+      "estimated_rows": 28070605,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CD",
+      "data_type": "connectors",
+      "estimated_rows": 2895313,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CF",
+      "data_type": "connectors",
+      "estimated_rows": 386398,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CG",
+      "data_type": "connectors",
+      "estimated_rows": 284522,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CH",
+      "data_type": "connectors",
+      "estimated_rows": 4159670,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CI",
+      "data_type": "connectors",
+      "estimated_rows": 500049,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CL",
+      "data_type": "connectors",
+      "estimated_rows": 2258111,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CM",
+      "data_type": "connectors",
+      "estimated_rows": 1301507,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CN",
+      "data_type": "connectors",
+      "estimated_rows": 41303660,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CO",
+      "data_type": "connectors",
+      "estimated_rows": 3291393,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CR",
+      "data_type": "connectors",
+      "estimated_rows": 250044,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CU",
+      "data_type": "connectors",
+      "estimated_rows": 438948,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CV",
+      "data_type": "connectors",
+      "estimated_rows": 45001,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CY",
+      "data_type": "connectors",
+      "estimated_rows": 280145,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "CZ",
+      "data_type": "connectors",
+      "estimated_rows": 5040037,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DE",
+      "data_type": "connectors",
+      "estimated_rows": 27703676,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DJ",
+      "data_type": "connectors",
+      "estimated_rows": 19300,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DK",
+      "data_type": "connectors",
+      "estimated_rows": 3304171,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DM",
+      "data_type": "connectors",
+      "estimated_rows": 8230,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DO",
+      "data_type": "connectors",
+      "estimated_rows": 360623,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "DZ",
+      "data_type": "connectors",
+      "estimated_rows": 3793186,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EC",
+      "data_type": "connectors",
+      "estimated_rows": 909145,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EE",
+      "data_type": "connectors",
+      "estimated_rows": 616842,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "EG",
+      "data_type": "connectors",
+      "estimated_rows": 3209926,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ER",
+      "data_type": "connectors",
+      "estimated_rows": 272326,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ES",
+      "data_type": "connectors",
+      "estimated_rows": 14662668,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ET",
+      "data_type": "connectors",
+      "estimated_rows": 1387161,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FI",
+      "data_type": "connectors",
+      "estimated_rows": 4446655,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FJ",
+      "data_type": "connectors",
+      "estimated_rows": 8493195,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FM",
+      "data_type": "connectors",
+      "estimated_rows": 3111,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "FR",
+      "data_type": "connectors",
+      "estimated_rows": 33803852,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GA",
+      "data_type": "connectors",
+      "estimated_rows": 82871,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GB",
+      "data_type": "connectors",
+      "estimated_rows": 13448068,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GD",
+      "data_type": "connectors",
+      "estimated_rows": 10890,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GE",
+      "data_type": "connectors",
+      "estimated_rows": 720674,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GH",
+      "data_type": "connectors",
+      "estimated_rows": 778268,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GM",
+      "data_type": "connectors",
+      "estimated_rows": 191527,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GN",
+      "data_type": "connectors",
+      "estimated_rows": 908114,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GQ",
+      "data_type": "connectors",
+      "estimated_rows": 75342,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GR",
+      "data_type": "connectors",
+      "estimated_rows": 3998952,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GT",
+      "data_type": "connectors",
+      "estimated_rows": 786356,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GW",
+      "data_type": "connectors",
+      "estimated_rows": 93449,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "GY",
+      "data_type": "connectors",
+      "estimated_rows": 77659,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HN",
+      "data_type": "connectors",
+      "estimated_rows": 544737,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HR",
+      "data_type": "connectors",
+      "estimated_rows": 2543179,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HT",
+      "data_type": "connectors",
+      "estimated_rows": 215728,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "HU",
+      "data_type": "connectors",
+      "estimated_rows": 2954297,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ID",
+      "data_type": "connectors",
+      "estimated_rows": 10829406,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IE",
+      "data_type": "connectors",
+      "estimated_rows": 2265684,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IL",
+      "data_type": "connectors",
+      "estimated_rows": 869764,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IN",
+      "data_type": "connectors",
+      "estimated_rows": 28479209,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IQ",
+      "data_type": "connectors",
+      "estimated_rows": 1925156,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IR",
+      "data_type": "connectors",
+      "estimated_rows": 5811772,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IS",
+      "data_type": "connectors",
+      "estimated_rows": 171980,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "IT",
+      "data_type": "connectors",
+      "estimated_rows": 14907494,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JM",
+      "data_type": "connectors",
+      "estimated_rows": 103688,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JO",
+      "data_type": "connectors",
+      "estimated_rows": 801532,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "JP",
+      "data_type": "connectors",
+      "estimated_rows": 16715400,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KE",
+      "data_type": "connectors",
+      "estimated_rows": 1944165,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KG",
+      "data_type": "connectors",
+      "estimated_rows": 853974,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KH",
+      "data_type": "connectors",
+      "estimated_rows": 1606187,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KI",
+      "data_type": "connectors",
+      "estimated_rows": 24505152,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KM",
+      "data_type": "connectors",
+      "estimated_rows": 8481,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KN",
+      "data_type": "connectors",
+      "estimated_rows": 9094,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KP",
+      "data_type": "connectors",
+      "estimated_rows": 642586,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KR",
+      "data_type": "connectors",
+      "estimated_rows": 3190100,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KW",
+      "data_type": "connectors",
+      "estimated_rows": 189359,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "KZ",
+      "data_type": "connectors",
+      "estimated_rows": 4650617,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LA",
+      "data_type": "connectors",
+      "estimated_rows": 5410363,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LB",
+      "data_type": "connectors",
+      "estimated_rows": 356188,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LC",
+      "data_type": "connectors",
+      "estimated_rows": 13389,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LI",
+      "data_type": "connectors",
+      "estimated_rows": 44732,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LK",
+      "data_type": "connectors",
+      "estimated_rows": 575577,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LR",
+      "data_type": "connectors",
+      "estimated_rows": 276004,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LS",
+      "data_type": "connectors",
+      "estimated_rows": 259717,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LT",
+      "data_type": "connectors",
+      "estimated_rows": 1192226,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LU",
+      "data_type": "connectors",
+      "estimated_rows": 240650,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LV",
+      "data_type": "connectors",
+      "estimated_rows": 1072063,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "LY",
+      "data_type": "connectors",
+      "estimated_rows": 570480,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MA",
+      "data_type": "connectors",
+      "estimated_rows": 1924602,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MC",
+      "data_type": "connectors",
+      "estimated_rows": 4982,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MD",
+      "data_type": "connectors",
+      "estimated_rows": 757249,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ME",
+      "data_type": "connectors",
+      "estimated_rows": 203451,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MF",
+      "data_type": "connectors",
+      "estimated_rows": 6507,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MG",
+      "data_type": "connectors",
+      "estimated_rows": 1763900,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MH",
+      "data_type": "connectors",
+      "estimated_rows": 3319,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MK",
+      "data_type": "connectors",
+      "estimated_rows": 244048,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ML",
+      "data_type": "connectors",
+      "estimated_rows": 1578815,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MM",
+      "data_type": "connectors",
+      "estimated_rows": 4956403,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MN",
+      "data_type": "connectors",
+      "estimated_rows": 516720,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MR",
+      "data_type": "connectors",
+      "estimated_rows": 417457,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MT",
+      "data_type": "connectors",
+      "estimated_rows": 54988,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MU",
+      "data_type": "connectors",
+      "estimated_rows": 77531,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MV",
+      "data_type": "connectors",
+      "estimated_rows": 26693,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MW",
+      "data_type": "connectors",
+      "estimated_rows": 1028574,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MX",
+      "data_type": "connectors",
+      "estimated_rows": 15068948,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MY",
+      "data_type": "connectors",
+      "estimated_rows": 3307370,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "MZ",
+      "data_type": "connectors",
+      "estimated_rows": 2283520,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NA",
+      "data_type": "connectors",
+      "estimated_rows": 423652,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NE",
+      "data_type": "connectors",
+      "estimated_rows": 1019681,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NG",
+      "data_type": "connectors",
+      "estimated_rows": 3318768,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NI",
+      "data_type": "connectors",
+      "estimated_rows": 292654,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NL",
+      "data_type": "connectors",
+      "estimated_rows": 6267552,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NO",
+      "data_type": "connectors",
+      "estimated_rows": 10133098,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NP",
+      "data_type": "connectors",
+      "estimated_rows": 1949861,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NR",
+      "data_type": "connectors",
+      "estimated_rows": 852,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "NZ",
+      "data_type": "connectors",
+      "estimated_rows": 10949797,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "OM",
+      "data_type": "connectors",
+      "estimated_rows": 1143962,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PA",
+      "data_type": "connectors",
+      "estimated_rows": 186287,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PE",
+      "data_type": "connectors",
+      "estimated_rows": 2247323,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PG",
+      "data_type": "connectors",
+      "estimated_rows": 166806,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PH",
+      "data_type": "connectors",
+      "estimated_rows": 2419072,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PK",
+      "data_type": "connectors",
+      "estimated_rows": 6655536,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PL",
+      "data_type": "connectors",
+      "estimated_rows": 12591554,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PT",
+      "data_type": "connectors",
+      "estimated_rows": 3476666,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PW",
+      "data_type": "connectors",
+      "estimated_rows": 1889,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "PY",
+      "data_type": "connectors",
+      "estimated_rows": 768926,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "QA",
+      "data_type": "connectors",
+      "estimated_rows": 264981,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RO",
+      "data_type": "connectors",
+      "estimated_rows": 2878821,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RS",
+      "data_type": "connectors",
+      "estimated_rows": 1342581,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RU",
+      "data_type": "connectors",
+      "estimated_rows": 169291039,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "RW",
+      "data_type": "connectors",
+      "estimated_rows": 366785,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SA",
+      "data_type": "connectors",
+      "estimated_rows": 4769308,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SB",
+      "data_type": "connectors",
+      "estimated_rows": 22110,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SC",
+      "data_type": "connectors",
+      "estimated_rows": 6413,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SD",
+      "data_type": "connectors",
+      "estimated_rows": 1164952,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SE",
+      "data_type": "connectors",
+      "estimated_rows": 6625969,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SG",
+      "data_type": "connectors",
+      "estimated_rows": 268941,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SI",
+      "data_type": "connectors",
+      "estimated_rows": 1379138,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SK",
+      "data_type": "connectors",
+      "estimated_rows": 2240342,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SL",
+      "data_type": "connectors",
+      "estimated_rows": 241931,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SM",
+      "data_type": "connectors",
+      "estimated_rows": 9794,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SN",
+      "data_type": "connectors",
+      "estimated_rows": 848865,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SO",
+      "data_type": "connectors",
+      "estimated_rows": 663451,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SR",
+      "data_type": "connectors",
+      "estimated_rows": 56692,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SS",
+      "data_type": "connectors",
+      "estimated_rows": 576791,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ST",
+      "data_type": "connectors",
+      "estimated_rows": 4292,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SV",
+      "data_type": "connectors",
+      "estimated_rows": 213336,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SX",
+      "data_type": "connectors",
+      "estimated_rows": 6022,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SY",
+      "data_type": "connectors",
+      "estimated_rows": 1156507,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "SZ",
+      "data_type": "connectors",
+      "estimated_rows": 120735,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TD",
+      "data_type": "connectors",
+      "estimated_rows": 444939,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TG",
+      "data_type": "connectors",
+      "estimated_rows": 317385,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TH",
+      "data_type": "connectors",
+      "estimated_rows": 6285789,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TJ",
+      "data_type": "connectors",
+      "estimated_rows": 760584,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TL",
+      "data_type": "connectors",
+      "estimated_rows": 43164,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TM",
+      "data_type": "connectors",
+      "estimated_rows": 965034,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TN",
+      "data_type": "connectors",
+      "estimated_rows": 756798,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TO",
+      "data_type": "connectors",
+      "estimated_rows": 11909,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TR",
+      "data_type": "connectors",
+      "estimated_rows": 5987603,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TT",
+      "data_type": "connectors",
+      "estimated_rows": 75809,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TV",
+      "data_type": "connectors",
+      "estimated_rows": 615,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TW",
+      "data_type": "connectors",
+      "estimated_rows": 3245288,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "TZ",
+      "data_type": "connectors",
+      "estimated_rows": 4907002,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UA",
+      "data_type": "connectors",
+      "estimated_rows": 7954448,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UG",
+      "data_type": "connectors",
+      "estimated_rows": 1802813,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "US",
+      "data_type": "connectors",
+      "estimated_rows": 319488470,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UY",
+      "data_type": "connectors",
+      "estimated_rows": 465078,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "UZ",
+      "data_type": "connectors",
+      "estimated_rows": 1719918,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VA",
+      "data_type": "connectors",
+      "estimated_rows": 1208,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VC",
+      "data_type": "connectors",
+      "estimated_rows": 10134,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VE",
+      "data_type": "connectors",
+      "estimated_rows": 1266397,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VN",
+      "data_type": "connectors",
+      "estimated_rows": 6768286,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "VU",
+      "data_type": "connectors",
+      "estimated_rows": 12115,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "WS",
+      "data_type": "connectors",
+      "estimated_rows": 12649,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XA",
+      "data_type": "connectors",
+      "estimated_rows": 95,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XB",
+      "data_type": "connectors",
+      "estimated_rows": 34,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XC",
+      "data_type": "connectors",
+      "estimated_rows": 367,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XD",
+      "data_type": "connectors",
+      "estimated_rows": 0,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XG",
+      "data_type": "connectors",
+      "estimated_rows": 45679,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XH",
+      "data_type": "connectors",
+      "estimated_rows": 21240,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XI",
+      "data_type": "connectors",
+      "estimated_rows": 1763,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XK",
+      "data_type": "connectors",
+      "estimated_rows": 287203,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XL",
+      "data_type": "connectors",
+      "estimated_rows": 243,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XM",
+      "data_type": "connectors",
+      "estimated_rows": 528,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XN",
+      "data_type": "connectors",
+      "estimated_rows": 353,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XO",
+      "data_type": "connectors",
+      "estimated_rows": 663,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XP",
+      "data_type": "connectors",
+      "estimated_rows": 753,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XQ",
+      "data_type": "connectors",
+      "estimated_rows": 107,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XR",
+      "data_type": "connectors",
+      "estimated_rows": 1081,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XT",
+      "data_type": "connectors",
+      "estimated_rows": 475,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XU",
+      "data_type": "connectors",
+      "estimated_rows": 1723,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XW",
+      "data_type": "connectors",
+      "estimated_rows": 316724,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XX",
+      "data_type": "connectors",
+      "estimated_rows": 131,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XY",
+      "data_type": "connectors",
+      "estimated_rows": 5663,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "XZ",
+      "data_type": "connectors",
+      "estimated_rows": 16511,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "YE",
+      "data_type": "connectors",
+      "estimated_rows": 512892,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZA",
+      "data_type": "connectors",
+      "estimated_rows": 4191500,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZM",
+      "data_type": "connectors",
+      "estimated_rows": 1376643,
+      "release": "2026-05-20.0"
+    },
+    {
+      "country": "ZW",
+      "data_type": "connectors",
+      "estimated_rows": 538238,
       "release": "2026-05-20.0"
     }
   ]
