@@ -29,7 +29,12 @@ dependencies = [
     "pandas",
     "pyarrow>=24.0.0",
     "shapely>=2.1.2",
-    "folium>=0.20.0",
+    "datashader>=0.19.1",
+    "colorcet>=3.2.1",
+    "contextily>=1.6.2",
+    "matplotlib>=3.10.3",
+    "s3fs>=2026.4.0",
+    "pillow>=12.2.0",
 ]
 
 [project.urls]
