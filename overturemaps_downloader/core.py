@@ -66,6 +66,7 @@ def establish_duckdb_connection() -> duckdb.DuckDBPyConnection:
     con.execute("INSTALL h3 FROM community; LOAD h3;")
     con.execute("SET s3_region='us-west-2';")
     con.execute("SET temp_directory='/tmp/duckdb_tmp';")
+    con.execute("SET enable_progress_bar=true;")
     return con
 
 
